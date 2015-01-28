@@ -34,12 +34,22 @@
                 <h2><span id="flip"></span></h2>
             </div>
         </div>
-        <div class="navbar" id="navbar-top">
-            <ul>
-                <li><a href="about.html">About</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-                <li><a href="#">Login</a></li>
-            </ul>
+
+		<div class="navbar" id="navbar-main">
+			<div id="navbar-top-left">
+				<a href="index.html"><img id="logo" src="assets/logo.png"></a>
+		        <ul>
+	                <li><a class="current-link" href="#">What is How-to.City?</a></li>
+	                <li><a href="library.html">Browse Guides</a></li>
+	                <li><a href="create.html">Create a Guide</a></li>
+	            </ul>
+	        </div>    
+            <div id="navbar-top-right">
+	  			<button class="button-accent" id="register-button-top">Get started</button>
+	            <a id="login-button" href="#">Login</a>
+	        </div>    
+        </div>
+            
         </div> 
         <button class="button-small" id="espanol">Español</button>
         <div class="container" id="main">
@@ -94,8 +104,25 @@
 	        <p>Site design and development by <a href="#">Point and Plot</a> and <a href="http://www.fluxscape.net">Fluxscape</a> with the Detroit Collaborative Design Center.
 	    </div>
 
-        <script>    
-		</script>
+	    <!--Login window-->
+	    <div id="screen"></div>
+	    <div id="login-window">
+	    	<img class="close-button" src="assets/close.svg">
+	    	<h5>Login</h6>
+	    	<a href="#"><strong>Create an account</strong></a>
+			<form action="action_page.php">
+			<input type="email" name="email" placeholder="Email">
+			<input type="password" name="password" placeholder="Password">
+			<br>
+			<br>
+			<br>
+			<input type="submit" name="Sign in" value="Sign in">
+			</form>
+			<button class="social-button" id="google"></button>
+			<button class="social-button" id="twitter"></button>
+	    </div>
+
+
 
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
 

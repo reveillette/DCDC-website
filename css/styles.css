@@ -1,9 +1,10 @@
 /* Colors
 /* Text: black;
 /* Accent: #ffcc33;
+/* Accent, secondary: #eeaa33;
 */
 
-
+/* Site styles */
 body {
 	margin: 0;
 	background-color: white;
@@ -12,7 +13,124 @@ body {
 .container {
 	width: 100%;
 }
+/* Links */
 
+a 	{
+	text-decoration: none;
+	color: black;
+	font-family: 'Montserrat';
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* Buttons */
+button {
+	display: block;
+	background-color: white;
+	border: 2px solid #CCC; 
+	color: #CCC;
+	font-family: 'Montserrat';
+	font-weight: 700;
+	text-transform: uppercase;
+    -webkit-transition: color 0.5s, border-color 0.5s;
+	transition: color 0.5s, border-color 0.5s;
+
+}
+
+button:hover {
+	color: #666;
+	border-color: #666;
+}
+
+.button-small {
+	margin: 10px;
+	padding: 10px;
+	border-radius: 10px
+}
+
+.button-large {
+	margin: 30px;
+	padding: 15px 30px;
+	border-radius: 15px;
+	font-size: 125%;	
+}
+
+.button-accent {
+	background-color: #ffcc33;
+	color: white;
+	font-weight: 400;
+	padding: 10px 20px;
+	border-radius: 10px;
+	border: none;
+	border-bottom: 1px solid black;
+	font-size: 100%;	
+}
+
+.button-accent:hover {
+	background-color: #eeaa33;
+	color: white;
+}
+
+.close-button {
+	height: 32px;
+	width: 32px;
+	float: right;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+}
+
+.close-button:hover {
+	-ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+	-webkit-transition: -webkit-transform 0.5s; 
+	transition: transform 0.5s;
+}
+
+.social-button {
+	border-radius: 5px;
+	border: none;
+	width: 100px;
+	height: 40px;
+}
+
+.social-button:hover {
+	opacity: 0.8;
+}
+
+#google {
+	background: #f9b098 url("../assets/google.png") no-repeat center;
+}
+
+#twitter {
+	background: #a9e3f4 url("../assets/twitter.png") no-repeat center;
+}
+
+
+
+/*Forms */
+
+input {
+	border: 2px #CCC solid;
+	height: 30px;
+	color: #666;
+	padding: 6px;
+}
+
+input[type=submit] {
+	background-color: #DDD;
+	border-radius: 5px;
+	border: none;
+	height: 40px;
+}
+
+input[type=submit]:hover {
+	background-color: #CCC;
+}
 
 /* Font styling */
 
@@ -65,13 +183,98 @@ p {
 	top: 50%;
 }
 
+/* Login window */
+
+#screen {
+	display: none;
+	position: absolute;
+	top: 0;
+	width:100%;
+	height:1000%;
+	background-color: black;
+	opacity: 0.7;
+	margin: 0;
+	z-index: 1000;
+}
+
+#login-window {
+	display: none;
+	position: fixed;
+	top: calc(50% - 200px);
+	left: calc(50% - 175px);
+	width: 300px;
+	height: 250px;
+	background-color: white;
+	z-index: 1001;
+	padding: 65px 50px;
+	font-size: 70%;
+}
+
+#login-window a, h5 {
+	display: inline;
+}
+
+#login-window a { float: right; ;
+}
+
+#login-window form {
+	margin: 20px 0;
+}
+
+#login-window input {
+	width: 95%;
+}
+
+#login-window input[type=email] {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom: none;
+}
+
+#login-window input[type=password] {
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+#login-window input[type=submit] {
+	width: 100%;
+}
+
+#login-window .social-button {
+	position: absolute;
+	bottom: 50px;
+	width: 35%;
+}
+
+#login-window #twitter {
+	right: 50px;
+}
+
+
+/* Translate */
+#espanol {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index: 100;
+	background-color: rgba(255,255,255,0);
+	border: 2px solid #000; 
+	color: #000;
+}
+
+#espanol:hover {
+	color: #ffcc33;
+	border-color: #ffcc33;
+}
+
+
 /* Main div (introductory info about site and how to sign up)*/
 #main {
 	margin-top: 40px;
 }
 
 #main * {
-	margin: 10px auto;
+	margin: 0 auto;
 	text-align: center;
 }
 
@@ -91,11 +294,6 @@ p {
 	width:80%;
 	margin:20px auto;
 	position: relative;
-}
-
-.column-container>a {
-	text-decoration: none;
-	color: black;
 }
 
 .column {
@@ -131,36 +329,70 @@ p {
 
 /* Navbars */
 .navbar {
-	z-index: 1000;
+	z-index: 100;
 	width: 100%;	
-	font-family: 'Montserrat';
 }
 
-.navbar a {	text-decoration: none; }
-.navbar a:hover { text-decoration: underline; }
+.navbar a, ul, li, button {
+	display: inline-block;
+}
 
-#navbar-top a { color: black;}
-
-#navbar-top {
-	border-top: 6px solid black;
+#navbar-main {
+	border-top: 5px solid black;
 	position: absolute;
 	top: 0;
-	text-align: right;
+	padding: 20px 0 10px 0;
+	background-color: white;
 }
 
-#navbar-top ul>li {
+#navbar-main div {
 	display: inline-block;
-	font-weight: 700;
-	margin: 20px 20px;
 }
 
-#navbar-bottom a { color: black;}
+#navbar-top-left {
+	margin-left: 5%;
+}
+
+#navbar-top-left .current-link {
+	color: #ffcc33;	
+	text-decoration: underline;
+}
+
+#navbar-top-left #logo {
+ 	height: 70px;
+ }
+
+#navbar-top-left a, ul, li {
+	margin: 0 10px;
+	vertical-align: text-top;
+}
+
+#navbar-top-left a {
+	font-family: 'Montserrat';
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1em;
+}
+
+#navbar-top-right {
+	position: relative;
+	float: right;
+	margin-right: 5%;
+}
+
+#navbar-top-right a {
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #666;
+	margin: 0 20px;
+}
 
 #navbar-bottom {
 	clear: both;
 	padding-top: 50px;
 	position: relative;
 	text-align: center;
+	font-family: 'Montserrat';
 }
 
 #navbar-bottom ul>li {
@@ -192,53 +424,3 @@ p {
 	font-weight: 200;
 	text-align: center;
 }
-
-
-/* Buttons */
-button {
-	display: block;
-	background-color: white;
-	border: 2px solid #CCC; 
-	color: #CCC;
-	font-family: 'Montserrat';
-	font-weight: 700;
-	text-transform: uppercase;
-    -webkit-transition: color 0.5s, border-color 0.5s;
-	transition: color 0.5s, border-color 0.5s;
-
-}
-
-button:hover {
-	color: #666;
-	border-color: #666;
-}
-
-.button-small {
-	margin: 10px;
-	padding: 10px;
-	border-radius: 10px
-}
-
-.button-large {
-	margin: 30px;
-	padding: 15px 30px;
-	border-radius: 15px;
-	font-size: 125%;	
-}
-
-/* Buttons specific */
-#espanol {
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	z-index: 1001;
-	background-color: rgba(255,255,255,0);
-	border: 2px solid #000; 
-	color: #000;
-}
-
-#espanol:hover {
-	color: #ffcc33;
-	border-color: #ffcc33;
-}
-
