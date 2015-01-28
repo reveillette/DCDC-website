@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Google Fonts-->
+        <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700|Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <!--CSS reset by http://meyerweb.com/-->
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <!--Custom styles-->
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="stylesheet" type="text/css" href="css/library.css">
+        <!--JQuery-->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<!--Site javascript-->   
+        <script type="text/javascript" src="js/howto.js"></script>
+        <script type="text/javascript" src="js/library.js"></script>
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <div class="navbar" id="navbar-main">
+            <div id="navbar-top-left">
+                <a href="index.html"><img id="logo" src="assets/logo.png"></a>
+                <ul>
+                    <li><a href="index.html">What is How-to.City?</a></li>
+                    <li><a class="current-link" href="library.html">Browse Guides</a></li>
+                    <li><a href="create.html">Create a Guide</a></li>
+                </ul>
+            </div>    
+            <div id="navbar-top-right">
+                <button class="button-accent" id="register-button-top">Get started</button>
+                <a id="login-button" href="#">Login</a>
+            </div>    
+        </div>
+        
+        <div id="search">
+            <img src="assets/icons/search.png">
+        </div>
+        
+        <div id="header">
+            <h3>How Do I...</h3>
+            <div class="navbar" id="navbar-library">
+                <h6>Sort by</h6>
+                <ul>
+                    <li id="sort-location">Location</li>
+                    <li id="sort-date">Date</li>
+                    <li id="sort-popularity">Popularity</li>
+                    <li id="sort-title">Title</li>
+                    <li id="sort-sharing">Most Shared</li>
+                </ul>
+            </div>    
+        </div>    
+        
+        <div id="grid">
+            <div class="tile">
+                <img src="assets/guides/Bird.jpg">
+                <a href="#"><h5 class="guide-title">Create an urban bird habitat</h5></a>
+                <p class="description">Backyard bird habitats, even in cities, are critical to building biodiversity and healthy green spaces in built-up areas.</p>
+                <div class="who-when">
+                    <h6 class="creator">Detroit Greenways Alliance</h6>
+                    <p class="date">December 21, 2014</p>
+                </div>    
+                <div class="stats">
+                    <li class="likes">147</li>
+                    <li class="downloads">56</li>
+                    <li class="shares">231</li>
+                </div>
+            </div>
+
+            <div class="tile">
+                <img src="assets/guides/Bird.jpg">
+                <a href="#"><h5 class="guide-title">Create an urban bird habitat</h5></a>
+                <p class="description">Backyard bird habitats, even in cities, are critical to building biodiversity and healthy green spaces in built-up areas.</p>
+                <div class="who-when">
+                    <h6 class="creator">Detroit Greenways Alliance</h6>
+                    <p class="date">December 21, 2014</p>
+                </div>    
+                <div class="stats">
+                    <li class="likes">147</li>
+                    <li class="downloads">56</li>
+                    <li class="shares">231</li>
+                </div>
+            </div>
+
+            <div class="tile">
+                <img src="assets/guides/Bird.jpg">
+                <a href="#"><h5 class="guide-title">Create an urban bird habitat</h5></a>
+                <p class="description">Backyard bird habitats, even in cities, are critical to building biodiversity and healthy green spaces in built-up areas.</p>
+                <div class="who-when">
+                    <h6 class="creator">Detroit Greenways Alliance</h6>
+                    <p class="date">December 21, 2014</p>
+                </div>    
+                <div class="stats">
+                    <ul>
+                        <li class="likes">147</li>
+                        <li class="downloads">56</li>
+                        <li class="shares">231</li>
+                    </ul>    
+                </div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <div class="navbar" id="navbar-bottom">
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="faq.html">Terms of Use</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Contact Us</a></li>
+
+                </ul>
+            </div>
+            <a href="http://www.enterprisecommunity.com/"><img height="30px" src="assets/enterprise-logo.png"></a>
+            <p>&copy 2015 Enterprise Community Partners. Community How-To Guides originally developed by the <a href="http://www.dcdc-udm.org/">Detroit Collaborative Design Center</a>.</p>
+            <p>Site design and development by <a href="#">Point and Plot</a> and <a href="http://www.fluxscape.net">Fluxscape</a> with the Detroit Collaborative Design Center.
+        </div>
+
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>
