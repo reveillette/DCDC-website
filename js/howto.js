@@ -1,6 +1,6 @@
 // Load header and footer
 	$(document).on('ready', function(event) {
-		$("#header").load('../html/header.html');
+		$("#header").load('html/header.html');
 		$("#footer").load('../html/footer.html');
 	});
 
