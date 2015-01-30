@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>howtocity: Browse Guides</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!--Google Fonts-->
@@ -20,7 +20,6 @@
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<!--Site javascript-->   
         <script type="text/javascript" src="js/howto.js"></script>
-        <script type="text/javascript" src="js/library.js"></script>
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     </head>
@@ -30,26 +29,13 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <div class="navbar" id="navbar-main">
-            <div id="navbar-top-left">
-                <a href="index.html"><img id="logo" src="assets/logo.png"></a>
-                <ul>
-                    <li><a href="index.html">What is How-to.City?</a></li>
-                    <li><a class="current-link" href="library.html">Browse Guides</a></li>
-                    <li><a href="create.html">Create a Guide</a></li>
-                </ul>
-            </div>    
-            <div id="navbar-top-right">
-                <button class="button-accent" id="register-button-top">Get started</button>
-                <a id="login-button" href="#">Login</a>
-            </div>    
-        </div>
+        <div id="header"></div>
         
         <div id="search">
             <img src="assets/icons/search.png">
         </div>
         
-        <div id="header">
+        <div id="library-header">
             <h3>How Do I...</h3>
             <div class="navbar" id="navbar-library">
                 <h6>Sort by</h6>
@@ -66,7 +52,7 @@
         <div id="grid">
             <div class="tile">
                 <img src="assets/guides/Bird.jpg">
-                <a href="#"><h5 class="guide-title">Create an urban bird habitat</h5></a>
+                <a href="#!"><h5 class="guide-title">Create an urban bird habitat</h5></a>
                 <p class="description">Backyard bird habitats, even in cities, are critical to building biodiversity and healthy green spaces in built-up areas.</p>
                 <div class="who-when">
                     <h6 class="creator">Detroit Greenways Alliance</h6>
@@ -81,7 +67,7 @@
 
             <div class="tile">
                 <img src="assets/guides/Bird.jpg">
-                <a href="#"><h5 class="guide-title">Create an urban bird habitat</h5></a>
+                <a href="#!"><h5 class="guide-title">Create an urban bird habitat</h5></a>
                 <p class="description">Backyard bird habitats, even in cities, are critical to building biodiversity and healthy green spaces in built-up areas.</p>
                 <div class="who-when">
                     <h6 class="creator">Detroit Greenways Alliance</h6>
@@ -96,7 +82,7 @@
 
             <div class="tile">
                 <img src="assets/guides/Bird.jpg">
-                <a href="#"><h5 class="guide-title">Create an urban bird habitat</h5></a>
+                <a href="#!"><h5 class="guide-title">Create an urban bird habitat</h5></a>
                 <p class="description">Backyard bird habitats, even in cities, are critical to building biodiversity and healthy green spaces in built-up areas.</p>
                 <div class="who-when">
                     <h6 class="creator">Detroit Greenways Alliance</h6>
@@ -112,20 +98,7 @@
             </div>
         </div>
 
-        <div id="footer">
-            <div class="navbar" id="navbar-bottom">
-                <ul>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="faq.html">Terms of Use</a></li>
-                    <li><a href="#">Privacy</a></li>
-                    <li><a href="#">Contact Us</a></li>
-
-                </ul>
-            </div>
-            <a href="http://www.enterprisecommunity.com/"><img height="30px" src="assets/enterprise-logo.png"></a>
-            <p>&copy 2015 Enterprise Community Partners. Community How-To Guides originally developed by the <a href="http://www.dcdc-udm.org/">Detroit Collaborative Design Center</a>.</p>
-            <p>Site design and development by <a href="#">Point and Plot</a> and <a href="http://www.fluxscape.net">Fluxscape</a> with the Detroit Collaborative Design Center.
-        </div>
+        <div id="footer"></div>
 
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
 
