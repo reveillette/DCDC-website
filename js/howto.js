@@ -6,10 +6,8 @@
 
 	function addCurrentClass() {
 		var shortURL = document.URL.split("/");
-		console.log(shortURL);
 		var i = shortURL.length - 1;
 		var currentPage = shortURL[i].replace(".html", "");
-		console.log(currentPage);
 		var id = "header-" + currentPage + "-url";
 		$("#" + id).toggleClass("current-link");
 	};
