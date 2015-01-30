@@ -64,48 +64,48 @@
 
 	function addLoginWindow() {
 		$("body").append("<div class='overlay' id='login-window'></div>");
-		$("#login-window").load('../html/login.html');
+		$("#login-window").load('html/login.html');
 	}
 
 	function addDownloadWindow(filename) {
 		$("body").append("<div class='overlay' id='download-window'></div>");
-		$("#download-window").load('../html/download.html');
+		$("#download-window").load('html/download.html');
 	}
 
 	function addRegisterWindow() {
 		$("body").append("<div class='overlay' id='register-window'></div>");
-		$("#register-window").load('../html/register.html');
+		$("#register-window").load('html/register.html');
 	}
 
 	function addShareWindow() {
 		$("body").append("<div class='overlay' id='share-window'></div>");			
-		$("#share-window").load('../html/share.html');
+		$("#share-window").load('html/share.html');
 	}
 
 	function addSearchWindow(filename) {
 		$("body").append("<div class='overlay' id='search-window'></div>");
-		$("#search-window").load('../html/search.html');
+		$("#search-window").load('html/search.html');
 	}
 
 	function addTermsWindow() {
 		$("body").append("<div class='overlay' id='terms-window'><img class='close-button' src='assets/close.svg'><h5>Terms and Conditions</h5><div id='terms-text'></div></div>");
-		$("#terms-text").load('../html/terms.html');
+		$("#terms-text").load('html/terms.html');
 		$("#terms-window").append(function() {
-			return "<br><br><br><p>Last Updated " + lastModified('../html/terms.html') + "</p>";
+			return "<br><br><br><p>Last Updated " + lastModified('html/terms.html') + "</p>";
 		}); 
 	}
 
 	function addPrivacyWindow() {
 		$("body").append("<div class='overlay' id='privacy-window'><img class='close-button' src='assets/close.svg'><h5>Privacy Policy</h5><div id='privacy-text'></div></div>");
-		$("#privacy-text").load('../html/privacy.html');
+		$("#privacy-text").load('html/privacy.html');
 		$("#privacy-window").append(function() {
-			return "<br><br><br><p>Last Updated " + lastModified('../html/privacy.html') + "</p>";
+			return "<br><br><br><p>Last Updated " + lastModified('html/privacy.html') + "</p>";
 		}); 
 	}
 
 	function addContactWindow() {
 		$("body").append("<div class='overlay' id='contact-window'></div>");
-		$("#contact-window").load('../html/contact.html');
+		$("#contact-window").load('html/contact.html');
 	}
 
 
