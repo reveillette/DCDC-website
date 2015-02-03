@@ -36,15 +36,9 @@ body {
 }
 
 #library-header {
-	margin-top: 10%;
+	margin-top: 150px;
 	clear: both;
 	text-align: center;
-}
-
-#grid {
-	position: relative;
-	width: 80%;
-	margin: 30px auto;
 }
 
 /* Search tab */
@@ -85,7 +79,6 @@ body {
 	margin: auto;
 	width: 22%;
 	background-color: white;
-	border-radius: 20px;
 	padding: 30px;
 	margin: 2.8%;
 	border: 1px solid white;

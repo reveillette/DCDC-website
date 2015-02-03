@@ -1,0 +1,102 @@
+/* Create page */
+
+body {
+	background-color: #EEE;
+}
+
+#create-header {
+	margin-top: 150px;
+	clear: both;
+	text-align: center;
+}
+
+#create-panel, #preview-panel {
+	display: inline-block;
+	width: 45%;
+	min-width: 400px;
+	background-color: white;
+	margin: auto;
+	vertical-align: top;
+	position: relative;
+	min-height: 400px;
+}
+
+
+#create-panel { 
+	margin-right: 30px; 
+	padding: 20px; 
+	overflow: scroll;
+	height: 500px;
+}
+
+#preview-panel { height: 540px;}
+
+#create-panel form { margin-top: 30px; }
+
+#create-panel input, textarea {
+	margin-top: 5px;
+	width: 90%;
+}
+
+#create-panel input { height: 20px; }
+#create-panel textarea { height: 100px; }
+
+
+.help-block {
+	display: none;
+}
+
+.help {
+	background: url("../assets/icons/help.png");
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+.help:hover {
+	background: url("../assets/icons/help-hover.png");
+}
+
+.help:active {
+	background: url("../assets/icons/help-clicked.png");
+}
+
+.form-group:hover:before {
+	border: 1px solid black;
+	color: black;
+}
+
+.form-group {
+	margin-top: 30px;
+}
+
+.color-block {
+	height: 20px;
+	width: 20px;
+	display: inline-block;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+.color-block:hover {
+	-ms-transform: scale(1.2, 1.2); /* IE 9 */
+    -webkit-transform: scale(1.2, 1.2); /* Chrome, Safari, Opera */
+    transform: scale(1.2, 1.2);
+}
+
+#red { background-color: #e2574c; }
+#orange { background-color: #e77944; }
+#yellow { background-color: #ffcc33; }
+#seafoam { background-color: #3db39e; }
+#teal { background-color: #4681a0; }
+#navy { background-color: #3e4f71; }
+
+#create-panel svg {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+}

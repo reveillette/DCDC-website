@@ -11,8 +11,14 @@ body {
 	overflow-x: hidden;
 }
 
-.container {
+.fullscreen {
 	width: 100%;
+	margin: 0;
+}
+
+.container {
+	width: 80%;
+	margin: 30px auto;
 }
 
 /* Font styling */
@@ -44,6 +50,12 @@ p {
 
 em {
 	font-style: italic;
+}
+
+label {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 0.75em;
 }
 
 /* Links */
@@ -80,13 +92,13 @@ button:hover {
 .button-small {
 	margin: 10px;
 	padding: 10px;
-	border-radius: 10px
+	border-radius: 5px;
 }
 
 .button-large {
 	margin: 30px;
 	padding: 15px 30px;
-	border-radius: 15px;
+	border-radius: 10px;
 	font-size: 125%;	
 }
 
@@ -95,7 +107,7 @@ button:hover {
 	color: white;
 	font-weight: 400;
 	padding: 10px 20px;
-	border-radius: 10px;
+	border-radius: 8px;
 	border: none;
 	border-bottom: 1px solid black;
 	font-size: 100%;	
@@ -151,8 +163,9 @@ button:hover {
 
 /*Forms */
 
-input {
+input, textarea {
 	border: 2px #CCC solid;
+	border-radius: 5px;
 	height: 30px;
 	color: #666;
 	padding: 5px;
@@ -160,7 +173,6 @@ input {
 
 input[type=submit] {
 	background-color: #DDD;
-	border-radius: 5px;
 	border: none;
 	height: 44px;
 }
@@ -169,6 +181,9 @@ input[type=submit]:hover {
 	background-color: #CCC;
 }
 
+textarea {
+	resize: vertical;
+}
 
 /* Block styling */
 /* Landing page */
@@ -433,14 +448,14 @@ input[type=submit]:hover {
 #login-window input { width: 95%; }
 
 #login-window input[type=email] {
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
 	border-bottom: none;
 }
 
 #login-window input[type=password] {
-	border-bottom-left-radius: 5px;
-	border-bottom-right-radius: 5px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
 }
 
 #login-window input[type=submit] {
@@ -471,19 +486,20 @@ input[type=submit]:hover {
 }
 
 #register-window input[name=name], #register-window input[name=title] {
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
 	border-bottom: none;
 	margin-top: 20px;
 }
 
 #register-window input[name=email], #register-window input[name=role] {
 	border-bottom: none;
+	border-radius: 0;
 }
 
 #register-window input[name=password], #register-window input[name=zip] {
-	border-bottom-left-radius: 5px;
-	border-bottom-right-radius: 5px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
 }
 
 #register-window input {
@@ -517,18 +533,19 @@ input[type=submit]:hover {
 }
 
 #download-window input[name=name] {
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
 	border-bottom: none;
 }
 
 #download-window input[name=email] {
 	border-bottom: none;
+	border-radius: 0;
 }
 
 #download-window input[name=zip]{
-	border-bottom-left-radius: 5px;
-	border-bottom-right-radius: 5px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
 }
 
 #download-window input {
@@ -550,10 +567,6 @@ input[type=submit]:hover {
 	height: 150px;
 }
 
-#search-window input[type=search] {
-	border-radius: 5px;
-}
-
 #search-window input {
 	width: 95%;
 }
@@ -573,10 +586,7 @@ input[type=submit]:hover {
 	height: 250px;
 }
 
-#share-window input {
-	border-radius: 5px;
-	display: inline-block;
-}
+#share-window input { display: inline-block; }
 
 #share-window div {
 	position: relative;
@@ -595,7 +605,6 @@ input[type=submit]:hover {
 #share-window h5 {
 	display: block;
 	margin-bottom: 20px;
-
 }
 
 #share-window input[type=submit]{

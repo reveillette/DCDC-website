@@ -1,0 +1,623 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"add",
+				"addCurrentClass"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"to",
+				"toString"
+			],
+			[
+				"date",
+				"dateLastMod"
+			],
+			[
+				"last",
+				"lastModDate"
+			],
+			[
+				"las",
+				"lastModDate"
+			],
+			[
+				"get",
+				"getResponseHeader"
+			],
+			[
+				"te",
+				"text-bottom"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"terms",
+				"terms-text"
+			],
+			[
+				"clo",
+				"close-button"
+			],
+			[
+				"con",
+				"contact"
+			],
+			[
+				"priv",
+				"privacy"
+			],
+			[
+				"prev",
+				"preventDefault"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"fad",
+				"fadeIn"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"bord",
+				"border-bottom"
+			],
+			[
+				"border-bo",
+				"border-bottom-left-radius"
+			],
+			[
+				"border-l",
+				"border-top-left-radius"
+			],
+			[
+				"down",
+				"downloadFile"
+			],
+			[
+				"pr",
+				"preventDefault"
+			],
+			[
+				"vali",
+				"validateForm"
+			],
+			[
+				"name",
+				"name"
+			],
+			[
+				"form",
+				"formName"
+			],
+			[
+				"downl",
+				"download-window"
+			],
+			[
+				"downlo",
+				"download-now"
+			],
+			[
+				"login-",
+				"login-window"
+			],
+			[
+				"tex",
+				"text-top"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"li",
+				"li	Tag"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"p",
+				"position"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"backgroud",
+				"background-color"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"backgro",
+				"background-image"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"c",
+				"cursor"
+			],
+			[
+				"border-to",
+				"border-top-right-radius"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"border-",
+				"border-radius"
+			],
+			[
+				"inlin",
+				"inline-block"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 4518,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "library.html",
+			"settings":
+			{
+				"buffer_size": 5358,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "create.html",
+			"settings":
+			{
+				"buffer_size": 2562,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/styles.css",
+			"settings":
+			{
+				"buffer_size": 10307,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/library.css",
+			"settings":
+			{
+				"buffer_size": 2444,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/howto.js",
+			"settings":
+			{
+				"buffer_size": 7786,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Color Picker: Insert Color"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Andi/Dropbox (Personal)/_PROJECTS/Git Repositories/DCDC-website/html/contact.html",
+		"/Users/Andi/Dropbox (Personal)/_PROJECTS/Git Repositories/DCDC-website/html/header.html",
+		"/Users/Andi/Dropbox (Personal)/_PROJECTS/Git Repositories/DCDC-website/html/footer.html",
+		"/Users/Andi/Dropbox (Personal)/_PROJECTS/Git Repositories/DCDC-website/js/search.html",
+		"/Users/Andi/Dropbox (Personal)/_PROJECTS/Git Repositories/DCDC-website/html/share.html",
+		"/Users/Andi/Dropbox (Personal)/_PROJECTS/Git Repositories/DCDC-website/html/download.html",
+		"/Users/Andi/Dropbox (Personal)/_PROJECTS/Git Repositories/DCDC-website/html/login.html",
+		"/Users/Andi/Dropbox (Personal)/_PROJECTS/Git Repositories/DCDC-website/html/register.html",
+		"/Users/Andi/Dropbox (Personal)/_PROJECTS/Git Repositories/DCDC-website/js/library.js",
+		"/Users/Andi/Dropbox (Personal)/_PROJECTS/Git Repositories/DCDC-website/html/terms.html",
+		"/Users/Andi/Dropbox (Personal)/_PROJECTS/Git Repositories/DCDC-website/js/TEST.js",
+		"/Users/Andi/Desktop/DCDC Website - Terms of use.html",
+		"/Users/Andi/Dropbox (Personal)/_PROJECTS/Git Repositories/DCDC-website/js/login.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"h2",
+			"#\"",
+			"#",
+			"\"see-more\"",
+			"\"see-more",
+			"transform",
+			"accent",
+			"download",
+			"\"",
+			"a:hover ",
+			"a ",
+			"z-index"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"h6",
+			"#!\"",
+			"'"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4518,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								833,
+								1141
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "library.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5358,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								715,
+								715
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "create.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2562,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1855,
+								1855
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 303.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10307,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4412,
+								4419
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5536.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "css/library.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2444,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2298,
+								2306
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "js/howto.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7786,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								155,
+								26
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "DCDC-website.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"xdebug":
+		{
+			"hide_conflict": false
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
