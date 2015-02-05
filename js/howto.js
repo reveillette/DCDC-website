@@ -265,6 +265,12 @@
 
 
 // Create page
+	// Create draggable canvas
+	var draw = SVG('container').size(400, 400)
+	var rect = draw.rect(100, 100)
+
+	rect.draggable()
+	
 	// Load form into create panel
 	$(document).on('ready', function(event) {
 		$("#create-panel").load('html/createform.html');

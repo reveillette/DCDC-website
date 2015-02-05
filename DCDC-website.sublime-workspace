@@ -4,16 +4,84 @@
 		"selected_items":
 		[
 			[
+				"m",
+				"margin-right"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"t",
+				"text-bottom"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"fo",
+				"font-family"
+			],
+			[
+				"inl",
+				"inline"
+			],
+			[
+				"pre",
+				"previewTarget"
+			],
+			[
+				"new",
+				"newHtml"
+			],
+			[
+				"rgb",
+				"rgb2hex"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"f",
+				"float"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
 				"add",
 				"addCurrentClass"
 			],
 			[
 				"margin",
 				"margin-bottom"
-			],
-			[
-				"font",
-				"font-style"
 			],
 			[
 				"to",
@@ -34,10 +102,6 @@
 			[
 				"get",
 				"getResponseHeader"
-			],
-			[
-				"te",
-				"text-bottom"
 			],
 			[
 				"v",
@@ -70,18 +134,6 @@
 			[
 				"fad",
 				"fadeIn"
-			],
-			[
-				"m",
-				"margin"
-			],
-			[
-				"mar",
-				"margin-right"
-			],
-			[
-				"marg",
-				"margin-bottom"
 			],
 			[
 				"bord",
@@ -140,10 +192,6 @@
 				"li	Tag"
 			],
 			[
-				"fon",
-				"font-family"
-			],
-			[
 				"p",
 				"position"
 			],
@@ -158,10 +206,6 @@
 			[
 				"pa",
 				"padding"
-			],
-			[
-				"fo",
-				"font-size"
 			],
 			[
 				"paddi",
@@ -192,16 +236,8 @@
 				"margin"
 			],
 			[
-				"padd",
-				"padding-bottom"
-			],
-			[
 				"cl",
 				"clear"
-			],
-			[
-				"bac",
-				"background-color"
 			],
 			[
 				"border-",
@@ -216,18 +252,10 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "assets/page1.html",
 			"settings":
 			{
-				"buffer_size": 4518,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "library.html",
-			"settings":
-			{
-				"buffer_size": 5358,
+				"buffer_size": 6896,
 				"line_ending": "Unix"
 			}
 		},
@@ -235,7 +263,32 @@
 			"file": "create.html",
 			"settings":
 			{
-				"buffer_size": 2562,
+				"buffer_size": 2779,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "html/createform.html",
+			"settings":
+			{
+				"buffer_size": 4515,
+				"line_ending": "Unix",
+				"name": "<form>"
+			}
+		},
+		{
+			"file": "js/howto.js",
+			"settings":
+			{
+				"buffer_size": 9536,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/create.css",
+			"settings":
+			{
+				"buffer_size": 1677,
 				"line_ending": "Unix"
 			}
 		},
@@ -243,7 +296,7 @@
 			"file": "css/styles.css",
 			"settings":
 			{
-				"buffer_size": 10307,
+				"buffer_size": 10442,
 				"line_ending": "Unix"
 			}
 		},
@@ -251,15 +304,15 @@
 			"file": "css/library.css",
 			"settings":
 			{
-				"buffer_size": 2444,
+				"buffer_size": 2359,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "js/howto.js",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 7786,
+				"buffer_size": 4519,
 				"line_ending": "Unix"
 			}
 		}
@@ -293,8 +346,20 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/Andi/Dropbox (Personal)/_PROJECTS/Git Repositories/DCDC-website",
+		"/Users/Andi/Dropbox (Personal)/_PROJECTS/Git Repositories/DCDC-website/js"
+	],
 	"file_history":
 	[
+		"/Users/Andi/Dropbox (Personal)/_PROJECTS/Git Repositories/DCDC-website/library.html",
+		"/Users/Andi/Dropbox (Personal)/_PROJECTS/Git Repositories/DCDC-website/assets/walksign.jpg=s900x1300",
+		"/Users/Andi/Dropbox (Personal)/_PROJECTS/Git Repositories/DCDC-website/js/howto.js",
+		"/Users/Andi/Dropbox (Personal)/_PROJECTS/Git Repositories/DCDC-website/index.html",
+		"/Users/Andi/Dropbox (Personal)/_PROJECTS/Git Repositories/DCDC-website/create.html",
+		"/Users/Andi/Dropbox (Personal)/_PROJECTS/Git Repositories/DCDC-website/css/styles.css",
+		"/Users/Andi/Dropbox (Personal)/_PROJECTS/Git Repositories/DCDC-website/css/library.css",
 		"/Users/Andi/Dropbox (Personal)/_PROJECTS/Git Repositories/DCDC-website/html/contact.html",
 		"/Users/Andi/Dropbox (Personal)/_PROJECTS/Git Repositories/DCDC-website/html/header.html",
 		"/Users/Andi/Dropbox (Personal)/_PROJECTS/Git Repositories/DCDC-website/html/footer.html",
@@ -325,6 +390,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"8052A1",
+			"input",
+			"radius",
 			"h2",
 			"#\"",
 			"#",
@@ -344,6 +412,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"e2574c",
 			"h6",
 			"#!\"",
 			"'"
@@ -362,107 +431,136 @@
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "assets/page1.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4518,
+						"buffer_size": 6896,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								833,
-								1141
+								343,
+								343
 							]
 						],
 						"settings":
 						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "create.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2779,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1162,
+								1162
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "html/createform.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4515,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								334,
+								334
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<form>",
 							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "library.html",
+					"buffer": 3,
+					"file": "js/howto.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5358,
+						"buffer_size": 9536,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								715,
-								715
+								8004,
+								8004
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 45.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "create.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2562,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1855,
-								1855
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 303.0,
+						"translation.y": 364.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "css/styles.css",
+					"buffer": 4,
+					"file": "css/create.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10307,
+						"buffer_size": 1677,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4412,
-								4419
+								912,
+								912
 							]
 						],
 						"settings":
@@ -471,27 +569,56 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 5536.0,
+						"translation.y": 756.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "css/library.css",
+					"buffer": 5,
+					"file": "css/styles.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2444,
+						"buffer_size": 10442,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2298,
-								2306
+								3746,
+								3746
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4299.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "css/library.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2359,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1152,
+								1152
 							]
 						],
 						"settings":
@@ -507,32 +634,33 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "js/howto.js",
+					"buffer": 7,
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7786,
+						"buffer_size": 4519,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								155,
-								26
+								1596,
+								1596
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 101.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -612,7 +740,7 @@
 		}
 	},
 	"show_minimap": true,
-	"show_open_files": false,
+	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 150.0,
