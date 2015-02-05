@@ -150,7 +150,6 @@
 	showOverlay("#register-link", "#register-window", addRegisterWindow);
 	showOverlay("#register-button", "#register-window", addRegisterWindow);
 
-
 	// Register overlay 
 	showOverlay("#search", "#search-window", addSearchWindow);
 
@@ -220,7 +219,7 @@
 	});
 
 	//Shares 
-	$(document).on('click', ".shares", function(event) {
+	$(document).on('click', '.shares', function(event) {
 		var numShares = $(this).text();
 		event.preventDefault();
 		if ($("#screen").length != 0) {
@@ -265,25 +264,22 @@
 
 
 // Create page
-	// Create draggable canvas
-	var draw = SVG('container').size(400, 400)
-	var rect = draw.rect(100, 100)
+	// Prompt for login when clicking link to Create page
+	showOverlay("#header-create-url", "#login-window", addLoginWindow);	
 
-	rect.draggable()
-	
-	// Load form into create panel
-	$(document).on('ready', function(event) {
-		$("#create-panel").load('html/createform.html');
-	});
-
-	// Load preview into preview panel
-	$(document).on('ready', function(event) {
-		$("#preview-panel").load('assets/page1.html');
-	});
 
 	// Form preview actions
-	// Change color 
 	$(document).on('ready', function(event) {
+		// Load form into create panel
+		$("#create-panel").load('html/createform.html');
+		// Load preview into preview panel
+		$("#preview-panel").load('assets/page1.html');
+		// Help button actions
+		$('#create-panel').on('click', '.help', function(event) {
+			var helpText = $(event.target.parentNode).find(".help-block").text();
+
+		});	
+		// Change color 
 		$('#create-panel').on('click', '.color-block', function(event) {
 			var color = String(rgb2hex($(event.target).css('background-color')));
 			$.get('assets/page1.html', function(data) {
@@ -292,6 +288,14 @@
 				$("#preview-panel svg").replaceWith(newHtml);
 			})	
 		});
+		// Change text
+		$('#preview-panel').on('click', 'svg text', function(event) {
+			console.log(event.target.id);
+			var id = event.target.id;
+			var focusForm = "#create-panel #" + id;
+			console.log(focusForm);
+			$(focusForm).focus();
+		})
 	});	
 
 	// Replace preview text
@@ -310,7 +314,7 @@
 				console.log(id);
 				var text = event.target.value;
 				console.log(text);
-				var previewTarget = "#preview-panel #" + id + ">tspan";
+				var previewTarget = "#preview-panel #" + id;
 				console.log(previewTarget);
 				$(previewTarget).text(text);
 			});	
@@ -321,6 +325,8 @@
 
 
 // Miscellaneous functions
+
+	// Prevent page reload when clicking on current link
 
 	// Form validation
 	function validateForm(formName) {
