@@ -21,6 +21,14 @@
         <script type="text/javascript" src="js/howto.js"></script>
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        
+        <!-- Joyride CSS -->
+        <link rel="stylesheet" type="text/css" href="css/jquery.joyride-2.1.css">
+        <!-- Joyride plugin -->
+        <script type="text/javascript" src="js/jquery.joyride-2.1.js"></script>
+        <!-- JQuery for Joyride attachment -->
+        <script type="text/javascript" src="js/jquery-1.10.1.js"></script>
+        
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -29,49 +37,58 @@
 
         <!-- Add your site or application content here -->
 		<div id="header"></div>
+        <button class="button-small" id="espanol">Español</button>
 
-        <div class="fullscreen" id="landing">
-            <div class="title">
-                <h1>How Do I...</h1>
-                <a href="about.html"><h2><span id="flip"></span></h2></a>
+        <div class="fullscreen" id="howto">
+            <div class="title white">
+                <h1>What Is HowToCity?</h1>
             </div>
         </div>
 
-
-        </div> 
-        <button class="button-small" id="espanol">Español</button>
         <div class="container" id="main">
         	<div id="intro">
-	        	<h3>Share what you know, build stronger communities.</h3>
+	        	<h3>Build a bridge for anybody to take action in their community</h3>
 	        	<div class="column-container">
 	        		<div class="column" id="library">
                         <a href="library.html">
-	     				<img class="icon" src="assets/icons/lightbulb.png">
-	     				<h5>Get ideas in the library</h5>
+	     				<!-- <img class="icon" src="assets/icons/lightbulb.png"> -->
+	     				<h5>Build capacity</h5>
                         </a>
 	     				<br>
-	     				<p>The Library is a repository of guides for community enagement and action that is available to anybody for free download.</p>
+	     				<p>Copy here about how the how-to guides are all about capacity building, teaching people how to take on challenges and pursue opportunities for themselves</p>
 	     			</div>     			   
 					<div class="column" id="create">
                         <a href="create.html">
-	     				<img class="icon" src="assets/icons/notepad.png">
-	     				<h5>Make your own guide</h5>
+	     				<!-- <img class="icon" src="assets/icons/notepad.png"> -->
+	     				<h5>Focus on what you know</h5>
                         </a>
 	     				<br>
-	     				<p>Interactively create your own how-to guide, then publish it to web or download as a PDF to print. The sky is the limit: how-to guides can cover any topic and can reach community members and professionals alike.</p>
+	     				<p>Do one thing, not a million things. How-to guides together form a library, so focus on what you know really well in order to contribute a unique piece.</p>
 	     			</div>     			   
 					<div class="column" id="share">
                         <a href="share.html">
-	     				<img class="icon" src="assets/icons/paintroller.png">
-	     				<h5>Put it all to work</h5>
+	     				<!-- <img class="icon" src="assets/icons/paintroller.png"> -->
+	     				<h5>Make it accessible</h5>
 	     			   </a>
 	     				<br>
-	     				<p>Take your guides into the field and organize your friends and neighbors to start impacting your community.</p>
+	     				<p>Think about your users—they're not policy wonks and activists, but neighbors and parents, professionals and community leaders.</p>
 	     			</div> 
 	     		</div>
-		     	<button class="button-large" id="learn-more-button" onclick="window.location.replace('getstarted.html')">Learn more</button>
+                <h3>The elements of a great how-to guide:</h3>
 	     	</div>
-
+            <br>
+            <br>
+            <br>
+            <div class="tour">
+                <img src="assets/howtofull.png" style="height:80%;width:auto;">
+                <div id="tour1">&nbsp;</div>
+                <div id="tour2">&nbsp;</div>
+                <div id="tour3">&nbsp;</div>
+                <div id="tour4">&nbsp;</div>
+            </div>
+            <br>
+            <br>
+            <br>
 			<div id="register">
      			<h4>Create a free account</h4>
      			<p>If you're passionate about your city or your neighborhood, then this website is for you. Anyone can view the guides online without registering, but to get started creating and downloading, click Register below.</p> 
@@ -81,6 +98,26 @@
      	</div>
 
  		<div id="footer"></div>
+        
+        <!-- Joyride Tourtip Content -->
+        <ol id="tourguide" data-joyride>
+          <li data-id="tour1" data-text="Next">
+            <h2>Stop #1</h2>
+            <p>You can control all the details for you tour stop. Any valid HTML will work inside of Joyride.</p>
+          </li>
+          <li data-id="tour2" data-button="Next" data-options="tipLocation:top;tipAnimation:fade">
+            <h2>Stop #2</h2>
+            <p>Get the details right by styling Joyride with a custom stylesheet!</p>
+          </li>
+          <li data-id="tour3" data-button="Next" data-options="tipLocation:right">
+            <h2>Stop #3</h2>
+            <p>It works right aligned.</p>
+          </li>
+          <li data-id="tour4" data-button="Next" data-options="tipLocation:right">
+            <h2>Stop #4.5</h2>
+            <p>It works with classes, and only on the first visible element with that class.</p>
+          </li>
+        </ol>
 
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
@@ -93,6 +130,21 @@
             ga('create','UA-XXXXX-X');ga('send','pageview');
         </script>
 
+        <!-- JOYRIDE -->
+        <script>
+          $(window).load(function() {
+            $('#tourguide').joyride({
+              autoStart : true,
+              postStepCallback : function (index, tip) {
+              if (index == 2) {
+                $(this).joyride('set_li', false, 1);
+              }
+            },
+            modal:true,
+            expose: true
+            });
+          });
+        </script>
 
     </body>
 </html>

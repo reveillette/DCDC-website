@@ -196,6 +196,13 @@ textarea {
     position: relative;
 }
 
+#howto {
+	height: 800px;
+    background: #ffffff url("../assets/idea2.jpg") no-repeat center; 
+    background-size: 100%;	
+    position: relative;
+}
+
 #flip {
 	color: #333;
 	font-weight: 400;
@@ -220,6 +227,53 @@ textarea {
 	top: 50%;
 }
 
+.white {
+    color:white;
+}
+
+.tour {
+    position:relative;
+    margin:auto;
+    background: #ffffff url("../assets/howtofull.png") no-repeat center; 
+    background-size: auto;	
+}
+
+#tour1 {
+    position:absolute;
+    top:8.1%;
+    left:34%;
+    height:20px;
+    width:20px;
+    background-color:blue;
+}
+
+#tour2 {
+    position:absolute;
+    top:18.5%;
+    left:34%;
+    height:20px;
+    width:20px;
+    background-color:blue;
+}
+
+#tour3 {
+    position:absolute;
+    top:42%;
+    left:34%;
+    height:20px;
+    width:20px;
+    background-color:blue;
+}
+
+#tour4 {
+    position:absolute;
+    top:54%;
+    left:34%;
+    height:20px;
+    width:20px;
+    background-color:blue;
+}
+    
 #espanol {
 	position: absolute;
 	bottom: 0;
