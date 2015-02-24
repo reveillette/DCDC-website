@@ -11,23 +11,25 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!--Google Fonts-->
         <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700|Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <!-- MUSEO FONTS -->
+        <link rel="stylesheet" href="css/museo/museo.css" type="text/css" charset="utf-8" />
         <!--CSS reset by http://meyerweb.com/-->
         <link rel="stylesheet" type="text/css" href="css/reset.css">
         <!--Custom styles-->
         <link rel="stylesheet" type="text/css" href="css/styles.css">
        <!--JQuery-->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
  		<!--Site javascript-->   
         <script type="text/javascript" src="js/howto.js"></script>
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         
-        <!-- Joyride CSS -->
+        <!-- Joyride -->
         <link rel="stylesheet" type="text/css" href="css/jquery.joyride-2.1.css">
         <!-- Joyride plugin -->
         <script type="text/javascript" src="js/jquery.joyride-2.1.js"></script>
         <!-- JQuery for Joyride attachment -->
-        <script type="text/javascript" src="js/jquery-1.10.1.js"></script>
+        <script type="text/javascript" src="js/jquery.cookie.js"></script>
         
     </head>
     <body>
@@ -36,7 +38,8 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-		<div id="header"></div>
+	    <div id="header"></div>
+        
         <button class="button-small" id="espanol">Español</button>
 
         <div class="fullscreen" id="howto">
@@ -44,63 +47,142 @@
                 <h1>What Is HowToCity?</h1>
             </div>
         </div>
+        
+    <div class="container" id="main">
+        
+        <div class="intro">
+            
+	        	<h4>Help others do.</h4>
+            
+                <p class="preface">Salvia try-hard cardigan, mlkshk jean shorts chia YOLO selvage pour-over keffiyeh Williamsburg wayfarers migas artisan tilde. Pop-up keffiyeh cliche, plaid Pinterest disrupt distillery kitsch hella. Typewriter Pitchfork raw denim, authentic normcore cred bespoke. Chillwave chambray VHS, Etsy listicle direct trade asymmetrical dreamcatcher readymade normcore cred mlkshk. Blog Banksy pickled, sriracha hashtag art party trust fund flexitarian. Lo-fi four dollar toast actually, Schlitz keffiyeh before they sold out kogi put a bird on it lumbersexual occupy Odd Future migas bitters. Bushwick raw denim YOLO seitan, irony distillery literally mumblecore sriracha ugh tote bag normcore High Life.</p>
 
-        <div class="container" id="main">
-        	<div id="intro">
-	        	<h3>Build a bridge for anybody to take action in their community</h3>
-	        	<div class="column-container">
+            <div class="fullscreen" id="howto2">&nbsp;</div>
+            
+            <div class="gray">
+	        	<h4>Build a library</h4>
+                <p class="preface">Butcher 8-bit keffiyeh yr, direct trade hashtag XOXO sartorial hella narwhal. Keytar Odd Future meh, readymade gastropub deep v typewriter master cleanse Tumblr American Apparel irony Etsy raw denim. PBR ethical McSweeney's, direct trade locavore butcher stumptown selfies +1 meh High Life. Mlkshk Echo Park gluten-free, deep v aesthetic trust fund fashion axe distillery hoodie. Trust fund before they sold out High Life kogi cronut lumbersexual, Austin master cleanse mumblecore readymade banjo actually sustainable squid shabby chic. Cronut Pinterest pop-up, chillwave twee vegan typewriter before they sold out gastropub DIY. Wayfarers tofu mustache, meh hoodie distillery asymmetrical cold-pressed.</p>
+            </div>
+               
+            <p class="gggtitle">The Good Guide Guide</p>
+            
+            <div class="column-container">
 	        		<div class="column" id="library">
-                        <a href="library.html">
-	     				<!-- <img class="icon" src="assets/icons/lightbulb.png"> -->
+	     				<img class="icon" src="assets/network.svg"><br>
 	     				<h5>Build capacity</h5>
-                        </a>
 	     				<br>
 	     				<p>Copy here about how the how-to guides are all about capacity building, teaching people how to take on challenges and pursue opportunities for themselves</p>
 	     			</div>     			   
 					<div class="column" id="create">
-                        <a href="create.html">
-	     				<!-- <img class="icon" src="assets/icons/notepad.png"> -->
-	     				<h5>Focus on what you know</h5>
-                        </a>
+	     				<img class="icon" src="assets/books.svg"><br>
+	     				<h5>Share what you know</h5>
 	     				<br>
 	     				<p>Do one thing, not a million things. How-to guides together form a library, so focus on what you know really well in order to contribute a unique piece.</p>
 	     			</div>     			   
 					<div class="column" id="share">
-                        <a href="share.html">
-	     				<!-- <img class="icon" src="assets/icons/paintroller.png"> -->
+	     				<img class="icon" src="assets/alien.svg"><br>
 	     				<h5>Make it accessible</h5>
-	     			   </a>
 	     				<br>
 	     				<p>Think about your users—they're not policy wonks and activists, but neighbors and parents, professionals and community leaders.</p>
 	     			</div> 
-	     		</div>
-                <h3>The elements of a great how-to guide:</h3>
-	     	</div>
-            <br>
-            <br>
-            <br>
+	        </div>
+
+            <div class="column-container">
+	        		<div class="column" id="library">
+	     				<img class="icon" src="assets/flag.svg"><br>
+	     				<h5>Another principle</h5>
+	     				<br>
+	     				<p>Copy here about how the how-to guides are all about capacity building, teaching people how to take on challenges and pursue opportunities for themselves</p>
+	     			</div>     			   
+					<div class="column" id="create">
+	     				<img class="icon" src="assets/placemarker.svg"><br>
+	     				<h5>Another principle</h5>
+	     				<br>
+	     				<p>Do one thing, not a million things. How-to guides together form a library, so focus on what you know really well in order to contribute a unique piece.</p>
+	     			</div>     			   
+					<div class="column" id="share">
+	     				<img class="icon" src="assets/music.svg"><br>
+	     				<h5>Another principle</h5>
+	     				<br>
+	     				<p>Think about your users—they're not policy wonks and activists, but neighbors and parents, professionals and community leaders.</p>
+	     			</div> 
+	        </div>
+                
+            <p class="gggtitle">The Good Guide Guide good guide tour</p>
+                
             <div class="tour">
                 <img src="assets/howtofull.png" style="height:80%;width:auto;">
                 <div id="tour1">&nbsp;</div>
                 <div id="tour2">&nbsp;</div>
                 <div id="tour3">&nbsp;</div>
                 <div id="tour4">&nbsp;</div>
-            </div>
-            <br>
-            <br>
-            <br>
-			<div id="register">
-     			<h4>Create a free account</h4>
-     			<p>If you're passionate about your city or your neighborhood, then this website is for you. Anyone can view the guides online without registering, but to get started creating and downloading, click Register below.</p> 
-     			<p>To download, simply provide your email address. To create, we'll ask for a little bit more information about you. Either way, it's quick and totally free!</p>
-     			<button class="button-large" id="register-button">Register</button>
-     		</div>
-     	</div>
-
- 		<div id="footer"></div>
+            </div>            
         
-        <!-- Joyride Tourtip Content -->
-        <ol id="tourguide" data-joyride>
+            <div class="gray">
+                <h4>Take it to the real world</h4>
+                <p class="preface">Cray cliche mlkshk, keytar pour-over heirloom keffiyeh 90's. Carles artisan stumptown, Truffaut PBRB kitsch semiotics. Semiotics cray post-ironic, next level Kickstarter stumptown salvia. Lomo put a bird on it Banksy Kickstarter. Kogi craft beer lo-fi Pinterest skateboard, Tumblr wolf. Sriracha farm-to-table jean shorts listicle tousled Shoreditch, selvage chambray. Artisan polaroid PBR slow-carb cronut actually chambray.</p>
+            </div>      
+                
+            <div class="fullscreen" id="howto3">&nbsp;</div>
+            
+            <p class="gggtitle">Real world tips</p>
+            
+            <div class="column-container">
+	        		<div class="column" id="library">
+	     				<img class="icon" src="assets/network.svg"><br>
+	     				<h5>Something here</h5>
+	     				<br>
+	     				<p>Copy here about how the how-to guides are all about capacity building, teaching people how to take on challenges and pursue opportunities for themselves</p>
+	     			</div>     			   
+					<div class="column" id="create">
+	     				<img class="icon" src="assets/books.svg"><br>
+	     				<h5>Collablaba bablaboration</h5>
+	     				<br>
+	     				<p>Do one thing, not a million things. How-to guides together form a library, so focus on what you know really well in order to contribute a unique piece.</p>
+	     			</div>     			   
+					<div class="column" id="share">
+	     				<img class="icon" src="assets/alien.svg"><br>
+	     				<h5>Maker and designer</h5>
+	     				<br>
+	     				<p>The day will come when people stop describing themselves as "makers." Until then, I just threw up in my mouth a little bit.</p>
+	     			</div> 
+	        </div>
+
+            <div class="column-container">
+	        		<div class="column" id="library">
+	     				<img class="icon" src="assets/flag.svg"><br>
+	     				<h5>Another principle</h5>
+	     				<br>
+	     				<p>Copy here about how the how-to guides are all about capacity building, teaching people how to take on challenges and pursue opportunities for themselves</p>
+	     			</div>     			   
+					<div class="column" id="create">
+	     				<img class="icon" src="assets/placemarker.svg"><br>
+	     				<h5>Another principle</h5>
+	     				<br>
+	     				<p>Do one thing, not a million things. How-to guides together form a library, so focus on what you know really well in order to contribute a unique piece.</p>
+	     			</div>     			   
+					<div class="column" id="share">
+	     				<img class="icon" src="assets/music.svg"><br>
+	     				<h5>Another principle</h5>
+	     				<br>
+	     				<p>Think about your users—they're not policy wonks and activists, but neighbors and parents, professionals and community leaders.</p>
+	     			</div> 
+	        </div>
+
+            <h4>Great! Now get started.</h4>
+     		
+            <p class="registertext">To start making your own guides and add them to the library for others around the world to use, register here. It's quick and totally free!</p>
+     		
+            <button class="button-large" id="register-button">Register</button>
+       
+        </div>
+    </div>
+
+ 	
+    <div id="footer"></div>
+        
+        
+    <!-- Joyride Content -->
+    <ol id="tourguide" data-joyride>
           <li data-id="tour1" data-text="Next">
             <h2>Stop #1</h2>
             <p>You can control all the details for you tour stop. Any valid HTML will work inside of Joyride.</p>
@@ -117,7 +199,7 @@
             <h2>Stop #4.5</h2>
             <p>It works with classes, and only on the first visible element with that class.</p>
           </li>
-        </ol>
+    </ol>
 
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
@@ -125,23 +207,16 @@
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
             function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
             e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
+            e.src='http://www.google-analytics.com/analytics.js';
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X');ga('send','pageview');
         </script>
 
-        <!-- JOYRIDE -->
+        <!-- JOYRIDE -->        
         <script>
           $(window).load(function() {
             $('#tourguide').joyride({
-              autoStart : true,
-              postStepCallback : function (index, tip) {
-              if (index == 2) {
-                $(this).joyride('set_li', false, 1);
-              }
-            },
-            modal:true,
-            expose: true
+                'tipLocation': 'bottom',
             });
           });
         </script>

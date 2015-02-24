@@ -17,8 +17,8 @@ body {
 }
 
 .container {
-	width: 80%;
-	margin: 30px auto;
+	width: 100%;
+	margin: auto;
 }
 
 /* Font styling */
@@ -42,10 +42,10 @@ h5 { font-size: 1.25em; }
 h6 { font-size: 1.0em; }
 
 p {
-	font-family: sans-serif;
+	font-family: 'museo_sans300', sans-serif;
 	color: black;
-	font-size: 1em;
-	line-height: 150%;
+	font-size: .9em;
+	line-height: 175%;
 }
 
 em {
@@ -74,11 +74,11 @@ a:hover {
 button {
 	display: block;
 	background-color: white;
-	border: 2px solid #CCC; 
-	color: #CCC;
-	font-family: 'Montserrat';
-	font-weight: 700;
-	text-transform: uppercase;
+	border: 2px solid #09c; 
+	color: #09c; /* was #ccc */
+	font-family: 'MuseoSans300','Montserrat',sans-serif;
+	font-weight: 300;
+	letter-spacing: 1.5px;
     -webkit-transition: color 0.5s, border-color 0.5s;
 	transition: color 0.5s, border-color 0.5s;
 
@@ -99,7 +99,8 @@ button:hover {
 	margin: 30px;
 	padding: 15px 30px;
 	border-radius: 10px;
-	font-size: 125%;	
+	font-size: 125%;
+    border:
 }
 
 .button-accent {
@@ -196,12 +197,6 @@ textarea {
     position: relative;
 }
 
-#howto {
-	height: 800px;
-    background: #ffffff url("../assets/idea2.jpg") no-repeat center; 
-    background-size: 100%;	
-    position: relative;
-}
 
 #flip {
 	color: #333;
@@ -231,9 +226,103 @@ textarea {
     color:white;
 }
 
+
+/* - - - - - - - - - - - - - - - - - -  H O W  T O  H O W  T O - - - - - - - - - - - - - - - - - - - */
+
+/* COPIES OF INTRO */
+.intro {
+	clear: both;
+	position: relative;
+}
+
+.intro>h3, h4, h5 {
+	margin-left: auto;
+    margin-right:auto;
+    padding-top:5%;
+    padding-bottom:5%;
+	width: 50%;
+	line-height: 150%;
+}
+
+.gray {
+    background-color:#fafafa;
+}
+
+.gray>h3 {
+    margin-left: auto;
+    margin-right:auto;
+    padding-top:5%;
+    padding-bottom:5%;
+	width: 50%;
+	line-height: 150%; 
+}
+
+#howto {
+	height: 800px;
+    background: #ffffff url("../assets/idea2.jpg") no-repeat center; 
+    background-size: 100%;	
+    position: relative;
+}
+
+#howto2 {
+	height: 800px;
+    background: #ffffff url("../assets/kids.jpg") no-repeat center; 
+    background-size: 100%;	
+    position: relative;
+}
+
+#howto3 {
+	height: 800px;
+    background: #ffffff url("../assets/detroit.jpg") no-repeat center; 
+    background-size: 100%;	
+    position: relative;
+}
+
+.preface {
+    width:50%;
+    margin:auto;
+    padding-bottom:5%;
+    font-size:1.2em;
+    line-height:200%;
+    text-align: left;
+    color: #999999;
+}
+
+.registertext {
+    width:30%;
+    margin:auto;
+    padding-bottom:5%;
+    font-size:1.2em;
+    line-height:200%;
+    color: #999999;
+    text-align: left;
+}
+
+.inline {
+    display:inline-block;
+    position:relative;
+    height: 60px;
+	width: auto;
+    vertical-align: middle;
+}
+
+.gggtitle {
+    font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+    font-size: 2em;
+    margin-bottom:5%;
+    margin-top:5%;
+}
+
+.underline {
+    border-bottom: solid 4px;
+    border-color: black;
+    padding-bottom:1%;
+}
+
 .tour {
     position:relative;
-    margin:auto;
+    margin:5% auto 5% auto;
     background: #ffffff url("../assets/howtofull.png") no-repeat center; 
     background-size: auto;	
 }
@@ -241,7 +330,7 @@ textarea {
 #tour1 {
     position:absolute;
     top:8.1%;
-    left:34%;
+    left:36%;
     height:20px;
     width:20px;
     background-color:blue;
@@ -250,7 +339,7 @@ textarea {
 #tour2 {
     position:absolute;
     top:18.5%;
-    left:34%;
+    left:36%;
     height:20px;
     width:20px;
     background-color:blue;
@@ -259,7 +348,7 @@ textarea {
 #tour3 {
     position:absolute;
     top:42%;
-    left:34%;
+    left:36%;
     height:20px;
     width:20px;
     background-color:blue;
@@ -268,7 +357,7 @@ textarea {
 #tour4 {
     position:absolute;
     top:54%;
-    left:34%;
+    left:36%;
     height:20px;
     width:20px;
     background-color:blue;
@@ -292,7 +381,7 @@ textarea {
 
 /* Main div (introductory info about site and how to sign up)*/
 #main {
-	margin-top: 40px;
+	margin-top: 0px; /*was 40px */
 }
 
 #main>div, #main>h1, #main>h2, #main>h3, #main>h4, #main>h5, #main>h6, #main>p, #main>img, #main>a {
@@ -305,15 +394,21 @@ textarea {
 	position: relative;
 }
 
+
 #intro>h3 {
-	margin: auto;
+	margin-left: auto;
+    margin-right:auto;
+    margin-top:5%;
+    margin-bottom:5%;
 	width: 50%;
-	line-height: 150%; 
+	line-height: 150%;
+    
 }
+
 
 .column-container {
 	display:block;
-	width:80%;
+	width:60%;
 	margin:20px auto;
 	position: relative;
 }
@@ -321,7 +416,7 @@ textarea {
 .column {
 	vertical-align: top;
 	width: 27%;
-	padding: 3%;
+	padding: 0 3% 0 3%;
 	margin: 0 auto;
 	display:inline-block;
 }
@@ -344,11 +439,10 @@ textarea {
 
 #register {
 	width: 50%;
-	margin-top: 120px;
 }
 
 #register * {
-	margin: 30px auto;
+	margin: auto;
 }
 
 /* Navbars */
