@@ -21,15 +21,12 @@
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
  		<!--Site javascript-->   
         <script type="text/javascript" src="js/howto.js"></script>
+        
+        <link rel="stylesheet" href="css/joyride.css">
+        
+        <link rel="stylesheet" href="css/simptip.css">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        
-        <!-- Joyride -->
-        <link rel="stylesheet" type="text/css" href="css/jquery.joyride-2.1.css">
-        <!-- Joyride plugin -->
-        <script type="text/javascript" src="js/jquery.joyride-2.1.js"></script>
-        <!-- JQuery for Joyride attachment -->
-        <script type="text/javascript" src="js/jquery.cookie.js"></script>
         
     </head>
     <body>
@@ -111,12 +108,14 @@
                 
             <div class="tour">
                 <img src="assets/howtofull.png" style="height:80%;width:auto;">
-                <div id="tour1">&nbsp;</div>
-                <div id="tour2">&nbsp;</div>
-                <div id="tour3">&nbsp;</div>
-                <div id="tour4">&nbsp;</div>
+                <ul>
+                <li id="tour1" class="active simptip-position-left simptip-fade simptip-smooth simptip-multiline" data-tooltip="Here's shitloads of great information!" rel="activity">&nbsp;</li>
+                <li id="tour2" class="active simptip-position-left simptip-fade simptip-smooth simptip-multiline" data-tooltip="Think about your users—they're not policy wonks" rel="activity">&nbsp;</li>
+                <li id="tour3" class="active simptip-position-left simptip-fade simptip-smooth simptip-multiline" data-tooltip="our-over heirloom keffiyeh 90's. Carles artisan stumptown," rel="activity">&nbsp;</li>
+                <li id="tour4" class="active simptip-position-left simptip-fade simptip-smooth simptip-multiline" data-tooltip="Artisan polaroid PBR slow-carb cronut actually chambray." rel="activity">&nbsp;</li>
+                </ul>
             </div>            
-        
+
             <div class="gray">
                 <h4>Take it to the real world</h4>
                 <p class="preface">Cray cliche mlkshk, keytar pour-over heirloom keffiyeh 90's. Carles artisan stumptown, Truffaut PBRB kitsch semiotics. Semiotics cray post-ironic, next level Kickstarter stumptown salvia. Lomo put a bird on it Banksy Kickstarter. Kogi craft beer lo-fi Pinterest skateboard, Tumblr wolf. Sriracha farm-to-table jean shorts listicle tousled Shoreditch, selvage chambray. Artisan polaroid PBR slow-carb cronut actually chambray.</p>
@@ -182,7 +181,7 @@
         
         
     <!-- Joyride Content -->
-    <ol id="tourguide" data-joyride>
+    <ol id="tourguide">
           <li data-id="tour1" data-text="Next">
             <h2>Stop #1</h2>
             <p>You can control all the details for you tour stop. Any valid HTML will work inside of Joyride.</p>
@@ -212,14 +211,30 @@
             ga('create','UA-XXXXX-X');ga('send','pageview');
         </script>
 
-        <!-- JOYRIDE -->        
-        <script>
-          $(window).load(function() {
-            $('#tourguide').joyride({
-                'tipLocation': 'bottom',
-            });
-          });
-        </script>
+<!-- JOYRIDE
 
+    <script type="text/javascript" src="js/jquery-1.10.1.js"></script>
+    <script type="text/javascript" src="js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="js/modernizr.mq.js"></script>
+    <script type="text/javascript" src="js/jquery.joyride-2.1.js"></script>
+    <script>
+      $(window).load(function() {
+        $('#tourguide').joyride({
+          autoStart : true,
+          nubPosition: 'right',
+          postStepCallback : function (index, tip) {
+          if (index == 2) {
+            $(this).joyride('set_li', false, 1);
+          }
+        },
+        modal:true,
+        expose: true
+        });
+      });
+    </script>
+
+END JOYRIDE  -->
+        
+        
     </body>
 </html>

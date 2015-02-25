@@ -42,7 +42,7 @@ h5 { font-size: 1.25em; }
 h6 { font-size: 1.0em; }
 
 p {
-	font-family: 'museo_sans300', sans-serif;
+	font-family: 'MuseoSans300', sans-serif;
 	color: black;
 	font-size: .9em;
 	line-height: 175%;
@@ -331,36 +331,40 @@ textarea {
     position:absolute;
     top:8.1%;
     left:36%;
-    height:20px;
-    width:20px;
-    background-color:blue;
+    height:24px;
+    width:24px;
+    background: #ffffff url("../assets/star.svg") no-repeat center; 
+    background-size: auto;	
 }
 
 #tour2 {
     position:absolute;
     top:18.5%;
     left:36%;
-    height:20px;
-    width:20px;
-    background-color:blue;
+    height:24px;
+    width:24px;
+    background: #ffffff url("../assets/star.svg") no-repeat center; 
+    background-size: auto;	
 }
 
 #tour3 {
     position:absolute;
     top:42%;
     left:36%;
-    height:20px;
-    width:20px;
-    background-color:blue;
+    height:24px;
+    width:24px;
+    background: #ffffff url("../assets/star.svg") no-repeat center; 
+    background-size: auto;	
 }
 
 #tour4 {
     position:absolute;
     top:54%;
     left:36%;
-    height:20px;
-    width:20px;
-    background-color:blue;
+    height:24px;
+    width:24px;
+    background: #ffffff url("../assets/star.svg") no-repeat center; 
+    background-size: auto;	
 }
     
 #espanol {
