@@ -21,6 +21,11 @@ body {
 	margin: auto;
 }
 
+.libcontainer {
+	width: 80%;
+	margin: auto;
+}
+
 /* Font styling */
 
 h1, h2 {
@@ -96,7 +101,6 @@ button:hover {
 }
 
 .button-large {
-	margin: 30px;
 	padding: 15px 30px;
 	border-radius: 10px;
 	font-size: 125%;
@@ -238,8 +242,8 @@ textarea {
 .intro>h3, h4, h5 {
 	margin-left: auto;
     margin-right:auto;
-    padding-top:5%;
-    padding-bottom:5%;
+    padding-top:3%;
+    padding-bottom:3%;
 	width: 50%;
 	line-height: 150%;
 }
@@ -255,6 +259,12 @@ textarea {
     padding-bottom:5%;
 	width: 50%;
 	line-height: 150%; 
+}
+
+.graybutton {
+    border: solid 2px;
+    border-color: #ccc;
+    color: #ccc;
 }
 
 #howto {
@@ -286,6 +296,29 @@ textarea {
     line-height:200%;
     text-align: left;
     color: #999999;
+}
+
+.faq {
+    width:60%;
+    margin-right:auto;
+    margin-left:auto;
+    text-align:left;
+}
+
+.faq h5 {
+    padding:0%;
+    margin-bottom:1%;
+}
+
+.answer {
+    font-size:1em;
+    line-height:175%;
+    color:#999;
+    margin-bottom:3%;
+}
+
+.blue {
+    color: #09c;
 }
 
 .registertext {
@@ -366,6 +399,9 @@ textarea {
     background: #ffffff url("../assets/star.svg") no-repeat center; 
     background-size: auto;	
 }
+
+
+
     
 #espanol {
 	position: absolute;
@@ -393,6 +429,13 @@ textarea {
 	text-align: center;
 }
 
+.underline {
+    margin-top:3%;
+    border-bottom: 3px solid #000;
+    font-size:1em;
+    padding-bottom:.5em;
+}
+
 #intro {
 	clear: both;
 	position: relative;
@@ -408,7 +451,6 @@ textarea {
 	line-height: 150%;
     
 }
-
 
 .column-container {
 	display:block;

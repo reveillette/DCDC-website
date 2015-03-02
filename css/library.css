@@ -81,12 +81,21 @@ body {
 	background-color: white;
 	padding: 30px;
 	margin: 2.8%;
-	border: 1px solid white;
+	/*border: 1px solid white;*/
+    border-top: 4px solid #999;
+}
 
+.tile h5 {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    line-height: 150%;
+    width: 100%;
 }
 
 .tile:hover {
-	border: 1px solid #ffcc33;
+	border-top: 4px solid #000;
 }
 
 .tile img {
