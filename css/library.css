@@ -1,7 +1,7 @@
 /* Library page */
 
 body {
-	background-color: #EEE;
+	background-color: #fff;
 }
 
 #navbar-library {
@@ -83,27 +83,23 @@ body {
 	margin: 2.8%;
 	/*border: 1px solid white;*/
     border-top: 4px solid #999;
+    position: relative;
 }
 
 .tile h5 {
     margin-left: auto;
     margin-right: auto;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    margin-top: 5%;
     line-height: 150%;
     width: 100%;
 }
 
 .tile:hover {
-	border-top: 4px solid #000;
+	border-top: 4px solid #09c;
 }
 
 .tile img {
-	margin: auto;
-}
-
-.guide-title {
-	margin-top: 
+	margin: 0 auto 0 auto;
 }
 
 .description {
@@ -114,7 +110,11 @@ body {
 
 .tile>img, .tile>p, .tile>a>h5 {
 	display: block;
-	margin-top: 20px;
+}
+
+.ribbon {
+    position: absolute;
+    height: 40px;
 }
 
 .who-when {
