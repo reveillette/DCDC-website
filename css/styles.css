@@ -516,7 +516,7 @@ textarea {
 }
 
 #navbar-main {
-	border-top: 5px solid black;
+	/*border-top: 5px solid black;*/
 	position: absolute;
 	top: 0;
 	padding: 20px 0 10px 0;
