@@ -17,11 +17,17 @@ body {
 }
 
 .container {
-	width: 80%;
-	margin: 30px auto;
+	width: 100%;
+	margin: auto;
 }
 
-/* Font styling */
+.libcontainer {
+	width: 80%;
+	margin: auto;
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - T E X T - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 h1, h2 {
 	font-family: 'Oswald', sans-serif;
@@ -42,10 +48,10 @@ h5 { font-size: 1.25em; }
 h6 { font-size: 1.0em; }
 
 p {
-	font-family: sans-serif;
+	font-family: 'MuseoSans300', sans-serif;
 	color: black;
-	font-size: 1em;
-	line-height: 150%;
+	font-size: .9em;
+	line-height: 175%;
 }
 
 em {
@@ -58,7 +64,8 @@ label {
 	font-size: 0.75em;
 }
 
-/* Links */
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - L I N K S - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 a 	{
 	text-decoration: none;
@@ -70,15 +77,16 @@ a:hover {
 	text-decoration: underline;
 }
 
-/* Buttons */
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - B U T T O N S - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 button {
 	display: block;
 	background-color: white;
-	border: 2px solid #CCC; 
-	color: #CCC;
-	font-family: 'Montserrat';
-	font-weight: 700;
-	text-transform: uppercase;
+	border: 2px solid #09c; 
+	color: #09c; /* was #ccc */
+	font-family: 'MuseoSans300','Montserrat',sans-serif;
+	font-weight: 300;
+	letter-spacing: 1.5px;
     -webkit-transition: color 0.5s, border-color 0.5s;
 	transition: color 0.5s, border-color 0.5s;
 
@@ -96,10 +104,10 @@ button:hover {
 }
 
 .button-large {
-	margin: 30px;
-	padding: 15px 30px;
-	border-radius: 10px;
-	font-size: 125%;	
+	padding: 10px 20px;
+	border-radius: 8px;
+	font-size: 125%;
+    border:
 }
 
 .button-accent {
@@ -161,7 +169,8 @@ button:hover {
 
 
 
-/*Forms */
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - F O R M S - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 input, textarea {
 	border: 2px #CCC solid;
@@ -185,6 +194,8 @@ textarea {
 	resize: vertical;
 }
 
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - L A N D I N G  - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /* Block styling */
 /* Landing page */
 /* Landing div (initial image and title on home page)*/
@@ -195,6 +206,7 @@ textarea {
     background-size: 100%;	
     position: relative;
 }
+
 
 #flip {
 	color: #333;
@@ -220,6 +232,187 @@ textarea {
 	top: 50%;
 }
 
+.white {
+    color:white;
+}
+
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - H O W  TO   H O W  T O - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+/* COPIES OF INTRO */
+.intro {
+	clear: both;
+	position: relative;
+}
+
+.intro>h3, h4, h5 {
+	margin-left: auto;
+    margin-right:auto;
+    padding-top:3%;
+    padding-bottom:3%;
+	line-height: 150%;
+}
+
+.gray {
+    background-color:#fafafa;
+}
+
+.gray>h3 {
+    margin-left: auto;
+    margin-right:auto;
+    padding-top:5%;
+    padding-bottom:5%;
+	width: 50%;
+	line-height: 150%; 
+}
+
+.graybutton {
+    border: solid 2px;
+    border-color: #ccc;
+    color: #ccc;
+}
+
+.topbutton {
+    font-size:1em;
+}
+
+#howto {
+	height: 800px;
+    background: #ffffff url("../assets/idea2.jpg") no-repeat center; 
+    background-size: 100%;	
+    position: relative;
+}
+
+#howto2 {
+	height: 800px;
+    background: #ffffff url("../assets/kids.jpg") no-repeat center; 
+    background-size: 100%;	
+    position: relative;
+}
+
+#howto3 {
+	height: 800px;
+    background: #ffffff url("../assets/detroit.jpg") no-repeat center; 
+    background-size: 100%;	
+    position: relative;
+}
+
+.preface {
+    width:50%;
+    margin:auto;
+    padding-bottom:5%;
+    font-size:1.2em;
+    line-height:200%;
+    text-align: left;
+    color: #999999;
+}
+
+.faq {
+    width:60%;
+    margin-right:auto;
+    margin-left:auto;
+    text-align:left;
+}
+
+.faq h5 {
+    padding:0%;
+    margin-bottom:1%;
+}
+
+.answer {
+    font-size:1em;
+    line-height:175%;
+    color:#999;
+    margin-bottom:3%;
+}
+
+.blue {
+    color: #09c;
+}
+
+.registertext {
+    width:30%;
+    margin:auto;
+    padding-bottom:5%;
+    font-size:1.2em;
+    line-height:200%;
+    color: #999999;
+    text-align: left;
+}
+
+.inline {
+    display:inline-block;
+    position:relative;
+    height: 60px;
+	width: auto;
+    vertical-align: middle;
+}
+
+.gggtitle {
+    font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+    font-size: 2em;
+    margin-bottom:5%;
+    margin-top:5%;
+}
+
+.underline {
+    border-bottom: solid 4px;
+    border-color: black;
+    padding-bottom:1%;
+}
+
+.tour {
+    position:relative;
+    margin:5% auto 5% auto;
+    background: #ffffff url("../assets/howtofull.png") no-repeat center; 
+    background-size: auto;	
+}
+
+#tour1 {
+    position:absolute;
+    top:8.1%;
+    left:36%;
+    height:24px;
+    width:24px;
+    background: #ffffff url("../assets/star.svg") no-repeat center; 
+    background-size: auto;	
+}
+
+#tour2 {
+    position:absolute;
+    top:18.5%;
+    left:36%;
+    height:24px;
+    width:24px;
+    background: #ffffff url("../assets/star.svg") no-repeat center; 
+    background-size: auto;	
+}
+
+#tour3 {
+    position:absolute;
+    top:42%;
+    left:36%;
+    height:24px;
+    width:24px;
+    background: #ffffff url("../assets/star.svg") no-repeat center; 
+    background-size: auto;	
+}
+
+#tour4 {
+    position:absolute;
+    top:54%;
+    left:36%;
+    height:24px;
+    width:24px;
+    background: #ffffff url("../assets/star.svg") no-repeat center; 
+    background-size: auto;	
+}
+
+
+
+    
 #espanol {
 	position: absolute;
 	bottom: 0;
@@ -236,9 +429,13 @@ textarea {
 }
 
 
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - M A I N   D I V  - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
 /* Main div (introductory info about site and how to sign up)*/
+
 #main {
-	margin-top: 40px;
+	margin-top: 0px; /*was 40px */
 }
 
 #main>div, #main>h1, #main>h2, #main>h3, #main>h4, #main>h5, #main>h6, #main>p, #main>img, #main>a {
@@ -246,20 +443,32 @@ textarea {
 	text-align: center;
 }
 
+.underline {
+    margin-top:3%;
+    border-bottom: 3px solid #000;
+    font-size:1em;
+    padding-bottom:.5em;
+}
+
 #intro {
 	clear: both;
 	position: relative;
 }
 
+
 #intro>h3 {
-	margin: auto;
+	margin-left: auto;
+    margin-right:auto;
+    margin-top:5%;
+    margin-bottom:5%;
 	width: 50%;
-	line-height: 150%; 
+	line-height: 150%;
+    
 }
 
 .column-container {
 	display:block;
-	width:80%;
+	width:60%;
 	margin:20px auto;
 	position: relative;
 }
@@ -267,7 +476,7 @@ textarea {
 .column {
 	vertical-align: top;
 	width: 27%;
-	padding: 3%;
+	padding: 0 3% 0 3%;
 	margin: 0 auto;
 	display:inline-block;
 }
@@ -290,14 +499,13 @@ textarea {
 
 #register {
 	width: 50%;
-	margin-top: 120px;
 }
 
 #register * {
-	margin: 30px auto;
+	margin: auto;
 }
 
-/* Navbars */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - N A V   B A R S - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 .navbar {
 	z-index: 100;
 	width: 100%;	
@@ -308,7 +516,7 @@ textarea {
 }
 
 #navbar-main {
-	border-top: 5px solid black;
+	/*border-top: 5px solid black;*/
 	position: absolute;
 	top: 0;
 	padding: 20px 0 10px 0;
@@ -352,7 +560,7 @@ textarea {
 
 #navbar-top-right a {
 	font-weight: 400;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	color: #666;
 	margin: 0 20px;
 }
@@ -372,8 +580,13 @@ textarea {
 	text-transform: uppercase;
 }
 
+.topbutton {
+    font-size:1em;
+}
 
-/* Footer */
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - F O O T E R - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 #footer {
 	margin-top: 100px;
@@ -398,7 +611,8 @@ textarea {
 
 
 /* Overlays */
-/* Transparent screen */
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - T R A N S P A R E N T  O V E R L A Y S - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 #screen {
 	display: none;
@@ -435,7 +649,8 @@ textarea {
 	width: 35%;
 }
 
-/* Login window */
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - L O G I N   W I N D O W - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 #login-window {
 	top: calc(50% - 200px);
 	left: calc(50% - 200px);
@@ -558,7 +773,8 @@ textarea {
 	right: 45px;
 }
 
-/* Search window */
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - S E A R C H   W I N D O W - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 #search-window {
 	top: calc(50% - 200px);
 	left: calc(50% - 200px);
@@ -626,7 +842,8 @@ textarea {
     transform: scale(1.2, 1.2);
 }
 
-/* Terms + Privacy windows */
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - T E R M S + P R I V A C Y - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 #terms-window, #privacy-window {
 	top: calc(50% - 250px);
 	left: calc(50% - 325px);

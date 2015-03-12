@@ -11,6 +11,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!--Google Fonts-->
         <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700|Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <!-- MUSEO FONTS -->
+        <link rel="stylesheet" href="css/museo/museo.css" type="text/css" charset="utf-8" />
         <!--CSS reset by http://meyerweb.com/-->
         <link rel="stylesheet" type="text/css" href="css/reset.css">
         <!--Custom styles-->
@@ -37,48 +39,52 @@
             </div>
         </div>
 
-
-        </div> 
         <button class="button-small" id="espanol">Español</button>
+        
         <div class="container" id="main">
-        	<div id="intro">
-	        	<h3>Share what you know, build stronger communities.</h3>
-	        	<div class="column-container">
-	        		<a href="library.html">
+        	
+            <div id="intro">
+	        
+                <h3>Share what you know, build stronger communities.</h3>
+	        	
+                <div class="column-container">
+                    <div class="column" id="share">
+                        <a href="share.html">
+	     				<img class="icon" src="assets/icons/wrench.svg">
+	     				<h5>What is How To City?</h5>
+	     			   </a>
+	     				<br>
+	     				<p>How To City lets community builders share their knowledge so others can take action for themselves. Take our guides into the field and organize your friends and neighbors to start impacting your community.</p>
+	     			</div> 
 	        		<div class="column" id="library">
+                        <a href="library.html">
 	     				<img class="icon" src="assets/icons/lightbulb.png">
-	     				<h5>Get ideas in the library</h5>
+	     				<h5>Get ideas in the Library</h5>
+                        </a>
 	     				<br>
 	     				<p>The Library is a repository of guides for community enagement and action that is available to anybody for free download.</p>
 	     			</div>     			   
-	     			</a>
-					<a href="create.html">
 					<div class="column" id="create">
+                        <a href="create.html">
 	     				<img class="icon" src="assets/icons/notepad.png">
-	     				<h5>Make your own guide</h5>
+	     				<h5>Create your own guide</h5>
+                        </a>
 	     				<br>
-	     				<p>Interactively create your own how-to guide, then publish it to web or download as a PDF to print. The sky is the limit: how-to guides can cover any topic and can reach community members and professionals alike.</p>
+	     				<p>Create your own how-to guide, then publish it to web or download it as a PDF to print. The sky is the limit: how-to guides can cover any topic and can reach community members and professionals alike.</p>
 	     			</div>     			   
-	     			</a>
-					<a href="share.html">
-					<div class="column" id="share">
-	     				<img class="icon" src="assets/icons/paintroller.png">
-	     				<h5>Put it all to work</h5>
-	     				<br>
-	     				<p>Take your guides into the field and organize your friends and neighbors to start impacting your community.</p>
-	     			</div> 
-	     			</a>
 	     		</div>
-		     	<button class="button-large" id="learn-more-button" onclick="window.location.replace('getstarted.html')">Learn more</button>
-	     	</div>
+                
+		     	<!-- <button class="button-large graybutton" id="learn-more-button" onclick="window.location.replace('howto.html')" style="margin-top:3.5%;">Learn more</button> -->
+                <br><br><br>
+                <h4>Create a free account</h4>
 
-			<div id="register">
-     			<h4>Create a free account</h4>
-     			<p>If you're passionate about your city or your neighborhood, then this website is for you. Anyone can view the guides online without registering, but to get started creating and downloading, click Register below.</p> 
-     			<p>To download, simply provide your email address. To create, we'll ask for a little bit more information about you. Either way, it's quick and totally free!</p>
-     			<button class="button-large" id="register-button">Register</button>
-     		</div>
-     	</div>
+                <p class="registertext">To start making your own guides and add them to the library for others around the world to use, register here. It's quick and totally free!</p>
+
+                <button class="button-large" id="register-button">Sign up</button>
+            
+            </div>
+                
+        </div>
 
  		<div id="footer"></div>
 
