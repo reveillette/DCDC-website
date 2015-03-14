@@ -132,7 +132,7 @@
 	$(document).on('click', '.close-button', function(event) {
 	    event.preventDefault();
 		$("#screen").fadeOut();
-		$(".overlay").fadeOut();
+		$(event.target).parent().fadeOut();
 		$("body").css("overflow", "visible");	
 	});
 
@@ -142,6 +142,13 @@
 		$(".overlay").fadeOut();
 		$("body").css("overflow", "visible");	
 	});
+
+	// Close topbar
+	$(document).on('click', '.topbar>.no-inset', function(event) {
+	    event.preventDefault();
+		$(".navbar").css("top", "0");
+	});
+
 
 	// Login overlay
 	showOverlay("#login-button", "#login-window", addLoginWindow);

@@ -6,6 +6,7 @@
 
 /* Site styles */
 body {
+	position: inherit !important;
 	margin: 0;
 	background-color: white;
 	overflow-x: hidden;
@@ -133,7 +134,6 @@ button:hover {
 .close-button {
 	height: 32px;
 	width: 32px;
-	float: right;
 	position: absolute;
 	top: 10px;
 	right: 10px;
@@ -146,6 +146,14 @@ button:hover {
     transform: rotate(90deg);
 	-webkit-transition: -webkit-transform 0.5s; 
 	transition: transform 0.5s;
+}
+
+.no-inset {
+	position: relative;
+	float: right;
+	vertical-align: middle;
+	top: 0;
+	right: 0;
 }
 
 .social-button {
@@ -166,9 +174,6 @@ button:hover {
 #twitter {
 	background: #a9e3f4 url("../assets/buttons/twitter.png") no-repeat center;
 }
-
-
-
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - F O R M S - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
@@ -236,6 +241,11 @@ textarea {
     color:white;
 }
 
+#google_translate_element {
+	float: left;
+	margin: 3px 0 0 20px;
+	z-index: 101;
+}
 
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - H O W  TO   H O W  T O - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
@@ -410,26 +420,6 @@ textarea {
     background-size: auto;	
 }
 
-
-
-    
-#espanol {
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	z-index: 100;
-	background-color: rgba(255,255,255,0);
-	border: 2px solid #000; 
-	color: #000;
-}
-
-#espanol:hover {
-	color: #ffcc33;
-	border-color: #ffcc33;
-}
-
-
-
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - M A I N   D I V  - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 /* Main div (introductory info about site and how to sign up)*/
@@ -506,6 +496,20 @@ textarea {
 }
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - N A V   B A R S - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+#header {
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+.topbar {
+	height: 32px;
+	background-color: #eee;
+	position: relative;
+	top: 0;
+	margin-top: 0;
+	z-index: 101;
+}
+
 .navbar {
 	z-index: 100;
 	width: 100%;	
@@ -518,7 +522,7 @@ textarea {
 #navbar-main {
 	/*border-top: 5px solid black;*/
 	position: absolute;
-	top: 0;
+	top: 32px;
 	padding: 20px 0 10px 0;
 	background-color: white;
 }
