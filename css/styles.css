@@ -17,7 +17,7 @@ body {
 }
 
 .container {
-	width: 100%;
+	width: 80%;
 	margin: auto;
 }
 
@@ -58,23 +58,28 @@ em {
 	font-style: italic;
 }
 
+.hr {
+    border-bottom: 1px solid #ddd;
+    /*margin:5% 0 5% 0;*/
+}
+
 label {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	font-size: 0.75em;
 }
 
-
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - L I N K S - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 a 	{
 	text-decoration: none;
-	color: black;
-	font-family: 'Montserrat';
+	color: inherit;    /* was black */
+	font-family: inherit; /* was Montserrat */
 }
 
 a:hover {
-	text-decoration: underline;
+	border-bottom: solid 2px;
+    border-color:inherit;
 }
 
 
@@ -249,13 +254,22 @@ textarea {
 .intro>h3, h4, h5 {
 	margin-left: auto;
     margin-right:auto;
-    padding-top:3%;
-    padding-bottom:3%;
+    padding-top:5%;
+    padding-bottom:5%;
 	line-height: 150%;
 }
 
+.contents {
+    color:#09c;
+    line-height: 2em;
+    width:50%;
+    text-align:left;
+    padding-top:0;
+    font-family:'Montserrat Light', 'Montserrate', 'MuseoSans300', Helvetica, sans-serif;
+}
+
 .gray {
-    background-color:#fafafa;
+    background-color:#f7f7f7;
 }
 
 .gray>h3 {
@@ -278,24 +292,26 @@ textarea {
 }
 
 #howto {
-	height: 800px;
-    background: #ffffff url("../assets/idea2.jpg") no-repeat center; 
+	height:550px;
+    background: #ffffff url("../assets/idea2b.jpg") no-repeat center; 
     background-size: 100%;	
     position: relative;
 }
 
 #howto2 {
-	height: 800px;
+	height: 600px;
     background: #ffffff url("../assets/kids.jpg") no-repeat center; 
     background-size: 100%;	
     position: relative;
+    margin: auto;
 }
 
 #howto3 {
-	height: 800px;
+	height: 600px;
     background: #ffffff url("../assets/detroit.jpg") no-repeat center; 
     background-size: 100%;	
     position: relative;
+    margin: auto;
 }
 
 .preface {
@@ -308,28 +324,71 @@ textarea {
     color: #999999;
 }
 
-.faq {
-    width:60%;
+.tips {
+    width:50%;
+    margin:auto;
+    padding-bottom:2%;
+    font-size:1.2em;
+    line-height:200%;
+    text-align: left;
+    color: #999999;
+}
+
+#page1 {
+    background-color: #f9f9f9; /* eeee22 - bety's yellow */  /* fff284 - pete's yellow */  /* blue C9E8E5 */  /* gray #f7f7f7  */
+    border-bottom: 1px solid white;
+    border-top: 3px solid white;
+}
+
+#page2 {
+    background-color: white;
+}
+
+
+.bignumber {
+    font-family:'MuseoSans700', sans-serif;
+    font-size:3em;
+    color:#09c;
+    margin:10% 0 0 0;
+}
+
+
+ /* - - - - - - - - - - - - -- - - - - - - - - - FAQS - - - - - - - - - - - - - - - - - -- - - - */
+
+
+#faq {
+    width:50%;
     margin-right:auto;
     margin-left:auto;
     text-align:left;
+    margin-bottom:5%;
 }
 
-.faq h5 {
+#faq h5 { 
+    cursor:pointer;
     padding:0%;
     margin-bottom:1%;
-}
+    font-weight:100;
+    color:#999;
+    }
+
+#faq h5.active { 
+    color:#F45B69; 
+    }
+
+#faq div { 
+    height:0; 
+    overflow:hidden; 
+    position:relative;
+    }
 
 .answer {
     font-size:1em;
     line-height:175%;
-    color:#999;
+    color:black;
     margin-bottom:3%;
 }
 
-.blue {
-    color: #09c;
-}
 
 .registertext {
     width:30%;
@@ -344,7 +403,7 @@ textarea {
 .inline {
     display:inline-block;
     position:relative;
-    height: 60px;
+    height: 20px;
 	width: auto;
     vertical-align: middle;
 }
@@ -355,6 +414,7 @@ textarea {
     font-size: 2em;
     margin-bottom:5%;
     margin-top:5%;
+    display:inline-block;
 }
 
 .underline {
@@ -366,52 +426,52 @@ textarea {
 .tour {
     position:relative;
     margin:5% auto 5% auto;
-    background: #ffffff url("../assets/howtofull.png") no-repeat center; 
     background-size: auto;	
+}
+
+.blue {
+    color: #09c;
 }
 
 #tour1 {
     position:absolute;
     top:8.1%;
-    left:36%;
+    left:32%;
     height:24px;
     width:24px;
-    background: #ffffff url("../assets/star.svg") no-repeat center; 
+    background: url("../assets/star.svg") no-repeat center; 
     background-size: auto;	
 }
 
 #tour2 {
     position:absolute;
     top:18.5%;
-    left:36%;
+    left:32%;
     height:24px;
     width:24px;
-    background: #ffffff url("../assets/star.svg") no-repeat center; 
+    background: url("../assets/star.svg") no-repeat center; 
     background-size: auto;	
 }
 
 #tour3 {
     position:absolute;
     top:42%;
-    left:36%;
+    left:32%;
     height:24px;
     width:24px;
-    background: #ffffff url("../assets/star.svg") no-repeat center; 
+    background: url("../assets/star.svg") no-repeat center; 
     background-size: auto;	
 }
 
 #tour4 {
     position:absolute;
     top:54%;
-    left:36%;
+    left:32%;
     height:24px;
     width:24px;
-    background: #ffffff url("../assets/star.svg") no-repeat center; 
+    background: url("../assets/star.svg") no-repeat center; 
     background-size: auto;	
 }
-
-
-
     
 #espanol {
 	position: absolute;
@@ -504,6 +564,53 @@ textarea {
 #register * {
 	margin: auto;
 }
+
+.subtitle {
+    font-size: 1.2em;
+    font-family:'MuseoSans700';
+    line-height:2em;
+    text-align:left;
+    width:50%;
+    margin:auto;
+    color:black;
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - T A B L E S  - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+.icon-big {
+    display: block;
+    width:100px;
+    padding-top:7%;
+}
+
+table {
+    width:50%;
+    margin:auto;
+}
+
+
+td {
+    vertical-align:top;
+    padding-bottom:10%;
+}
+
+td .left {
+    column-width:30%;
+}
+
+td .right {
+    column-width:70%;
+}
+
+td p {
+    text-align: left;
+    color: black;
+    padding-left: 15%;
+    color: #999;
+    font-size: 1.2em;
+    line-height: 200%;
+    }
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - N A V   B A R S - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 .navbar {
