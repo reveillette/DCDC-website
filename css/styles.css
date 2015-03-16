@@ -78,8 +78,7 @@ a 	{
 }
 
 a:hover {
-	border-bottom: solid 2px;
-    border-color:inherit;
+    color: #fc3;
 }
 
 
@@ -89,7 +88,7 @@ button {
 	background-color: white;
 	border: 2px solid #09c; 
 	color: #09c; /* was #ccc */
-	font-family: 'MuseoSans300','Montserrat',sans-serif;
+	font-family: 'MuseoSans300', Helvetica, sans-serif;
 	font-weight: 300;
 	letter-spacing: 1.5px;
     -webkit-transition: color 0.5s, border-color 0.5s;
@@ -266,6 +265,16 @@ textarea {
     text-align:left;
     padding-top:0;
     font-family:'Montserrat Light', 'Montserrate', 'MuseoSans300', Helvetica, sans-serif;
+}
+
+.contents a {
+    color: inherit;
+}
+
+.contents a:hover {
+    color:inherit;
+    border-bottom: solid 2px;
+    border-color:inherit;
 }
 
 .gray {
@@ -661,7 +670,7 @@ td p {
 }
 
 #navbar-top-left a {
-	font-family: 'Montserrat';
+	font-family: 'MuseoSans';
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 1em;
@@ -685,7 +694,7 @@ td p {
 	padding-top: 50px;
 	position: relative;
 	text-align: center;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'MuseoSans', sans-serif;
 }
 
 #navbar-bottom ul>li {
