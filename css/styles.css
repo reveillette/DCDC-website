@@ -637,6 +637,7 @@ td p {
 
 .navbar a, ul, li, button {
 	display: inline-block;
+    font-family: 'MuseoSans500', Helvetica, sans-serif;
 }
 
 #navbar-main {
@@ -670,8 +671,6 @@ td p {
 }
 
 #navbar-top-left a {
-	font-family: 'MuseoSans';
-	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 1em;
 }
