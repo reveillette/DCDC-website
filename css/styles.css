@@ -4,11 +4,15 @@
 /* Accent, secondary: #eeaa33;
 */
 
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900);
+
 /* Site styles */
 body {
 	margin: 0;
 	background-color: white;
 	overflow-x: hidden;
+    font-family: 'Source Sans Pro', Helvetica, sans-serif;
 }
 
 .fullscreen {
@@ -36,7 +40,6 @@ h1, h2 {
 }
 
 h3, h4, h5, h6 {
-	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 }
 
@@ -48,12 +51,12 @@ h5 { font-size: 1.25em; }
 h6 { font-size: 1.0em; }
 
 p {
-	font-family: 'MuseoSans300', sans-serif;
 	color: black;
+    font-weight:300;
 	font-size: .9em;
 	line-height: 175%;
 }
-
+ 
 em {
 	font-style: italic;
 }
@@ -64,7 +67,6 @@ em {
 }
 
 label {
-	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	font-size: 0.75em;
 }
@@ -74,7 +76,6 @@ label {
 a 	{
 	text-decoration: none;
 	color: black;
-	font-family: 'MuseoSans500' Helvetica, sans-serif; /* was Montserrat */
 }
 
 a:hover {
@@ -88,12 +89,11 @@ button {
 	background-color: white;
 	border: 2px solid #09c; 
 	color: #09c; /* was #ccc */
-	font-family: 'MuseoSans300', Helvetica, sans-serif;
 	font-weight: 300;
 	letter-spacing: 1.5px;
     -webkit-transition: color 0.5s, border-color 0.5s;
 	transition: color 0.5s, border-color 0.5s;
-
+    font-family:'Source Sans Pro';
 }
 
 button:hover {
@@ -111,7 +111,6 @@ button:hover {
 	padding: 10px 20px;
 	border-radius: 8px;
 	font-size: 125%;
-    border:
 }
 
 .button-accent {
@@ -260,11 +259,11 @@ textarea {
 
 .contents {
     color:#09c;
+    font-weight:500;
     line-height: 2em;
     width:50%;
     text-align:left;
     padding-top:0;
-    font-family:'Montserrat Light', 'Montserrate', 'MuseoSans300', Helvetica, sans-serif;
 }
 
 .contents a {
@@ -330,7 +329,8 @@ textarea {
     font-size:1.2em;
     line-height:200%;
     text-align: left;
-    color: #999999;
+    color: #666;
+    font-weight:300;
 }
 
 .tips {
@@ -355,8 +355,8 @@ textarea {
 
 
 .bignumber {
-    font-family:'MuseoSans700', sans-serif;
     font-size:3em;
+    font-weight:700;
     color:black; /* #09c */
     margin:10% 0 0 0;
 }
@@ -377,8 +377,8 @@ textarea {
     cursor:pointer;
     padding:0%;
     margin-bottom:1%;
-    font-weight:100;
-    color:#999;
+    font-weight:300;
+    color:#666;
     }
 
 #faq h5.active { 
@@ -405,7 +405,7 @@ textarea {
     padding-bottom:5%;
     font-size:1.2em;
     line-height:200%;
-    color: #999999;
+    color: #666;
     text-align: left;
 }
 
@@ -418,7 +418,6 @@ textarea {
 }
 
 .gggtitle {
-    font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
     font-size: 2em;
     margin-bottom:5%;
@@ -584,7 +583,7 @@ textarea {
 
 .subtitle {
     font-size: 1.2em;
-    font-family:'MuseoSans700';
+    font-weight:500;
     line-height:2em;
     text-align:left;
     width:50%;
@@ -624,7 +623,7 @@ td p {
     text-align: left;
     color: black;
     padding-left: 15%;
-    color: #999;
+    color: #666;
     font-size: 1.2em;
     line-height: 200%;
     }
@@ -637,7 +636,6 @@ td p {
 
 .navbar a, ul, li, button {
 	display: inline-block;
-    font-family: 'MuseoSans500', Helvetica, sans-serif;
 }
 
 #navbar-main {
@@ -667,7 +665,7 @@ td p {
 
 #navbar-top-left a, #navbar-top-left  ul, #navbar-top-left li {
 	margin: 0 10px;
-	vertical-align: middle;
+	vertical-align: text-top;
 }
 
 #navbar-top-left a {
@@ -690,7 +688,6 @@ td p {
 	padding-top: 50px;
 	position: relative;
 	text-align: center;
-	font-family: 'MuseoSans', sans-serif;
 }
 
 #navbar-bottom ul>li {
