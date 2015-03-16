@@ -73,8 +73,8 @@ label {
 
 a 	{
 	text-decoration: none;
-	color: inherit;    /* was black */
-	font-family: inherit; /* was Montserrat */
+	color: black;
+	font-family: 'MuseoSans500' Helvetica, sans-serif; /* was Montserrat */
 }
 
 a:hover {
