@@ -348,7 +348,7 @@ textarea {
 .bignumber {
     font-family:'MuseoSans700', sans-serif;
     font-size:3em;
-    color:#09c;
+    color:black; /* #09c */
     margin:10% 0 0 0;
 }
 
@@ -547,6 +547,14 @@ textarea {
 
 .column>p { 
 	margin-top: 20px;
+}
+
+.padding-b {
+    padding-bottom:3%;
+}
+
+.padding-t {
+    padding-top:5%;
 }
 
 .icon {
