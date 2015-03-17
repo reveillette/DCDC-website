@@ -93,7 +93,7 @@ button {
 	background-color: white;
 	border: 2px solid #09c; 
 	color: #09c; /* was #ccc */
-	font-weight: 300;
+	font-weight: 500;
 	letter-spacing: 1.5px;
     -webkit-transition: color 0.5s, border-color 0.5s;
 	transition: color 0.5s, border-color 0.5s;
@@ -291,16 +291,6 @@ textarea {
     padding-bottom:5%;
 	width: 50%;
 	line-height: 150%; 
-}
-
-.graybutton {
-    border: solid 2px;
-    border-color: #ccc;
-    color: #ccc;
-}
-
-.topbutton {
-    font-size:1em;
 }
 
 #howto {
@@ -683,7 +673,7 @@ td p {
 }
 
 #navbar-top-right a {
-	color: #666;
+	color: black;
 	margin: 0 20px;
 }
 
@@ -703,7 +693,15 @@ td p {
 
 .topbutton {
     font-size:1em;
+    font-weight:500;
 }
+
+.graybutton {
+    border: solid 2px;
+    border-color: #666;
+    color: #666;
+}
+
 
 
 
