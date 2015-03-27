@@ -9,7 +9,7 @@
 
 /* Site styles */
 html * {
--webkit-font-smoothing: antialiased;
+/*-webkit-font-smoothing: antialiased;*/
 }
 
 body {
