@@ -60,10 +60,11 @@ strong {
 dfn {
   font-style: italic;
 }
+/*
 h1 {
   margin: .67em 0;
   font-size: 2em;
-}
+}*/
 mark {
   color: #000;
   background: #ff0;
@@ -1244,6 +1245,12 @@ h3 .small,
 .h3 .small {
   font-size: 65%;
 }
+/*
+
+
+HEADING SPACING IN BOOTSTRAP IS OVER-RIDED BY STYLES.CSS EXCEPT FOR THESE RULES
+
+
 h4,
 .h4,
 h5,
@@ -1253,6 +1260,7 @@ h6,
   margin-top: 10px;
   margin-bottom: 10px;
 }
+*/
 h4 small,
 .h4 small,
 h5 small,
