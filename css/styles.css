@@ -937,6 +937,7 @@ td p {
 #share-window h5 {
 	display: block;
 	margin-bottom: 20px;
+    padding:0;
 }
 
 #share-window input[type=submit]{
