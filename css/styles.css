@@ -762,7 +762,7 @@ td p {
 
 .overlay .social-button {
 	position: absolute;
-	bottom: 50px;
+	/*bottom: 50px;*/
 	width: 35%;
 }
 
