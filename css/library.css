@@ -1,0 +1,176 @@
+/* Library page */
+
+body {
+	background-color: #efefef;
+}
+
+#navbar-library {
+	width: 50%;
+	margin: 30px auto;
+}
+
+#navbar-library ul>li {
+	background-color: #ddd;
+	border-radius: 3px;
+	margin-right: 8px;
+	padding: 8px 5px 5px 5px;
+	font-family: sans-serif;
+	font-size: 70%;
+	color: #666;
+	cursor: pointer;
+}
+
+#navbar-library ul {
+	margin-left: 10px;
+}
+
+#navbar-library ul>li:hover {
+	color: black;
+;}
+
+
+#navbar-library>* {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#library-header {
+	margin-top: 150px;
+	clear: both;
+	text-align: center;
+}
+
+/* Search tab */
+#search {
+	position: absolute;
+	right: 0;
+	top: 200px;
+	height: 50px;
+	width: 60px;
+	padding: 5px; 
+	background-color: black;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	z-index: 1001;
+}
+
+#search:hover {
+	background-color: #ffcc33;
+	border-bottom: 1px solid black;
+}
+
+#search:active {
+	background-color: #eeaa33;
+}
+
+#search img {
+	position: absolute;
+	top: calc(50% - 16px);
+	left: calc(50% - 16px);
+	height: 32px;
+	margin: auto;
+}
+
+/* Guide preview tiles */
+
+.tile {
+	display: inline-block;
+	margin: auto;
+	width: 22%;
+	background-color: white;
+	padding: 30px;
+	margin: 2.8%;
+	/*border: 1px solid white;*/
+    border-top: 4px solid #999;
+    position: relative;
+}
+
+.tile h5 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    line-height: 150%;
+    width: 100%;
+}
+
+.tile:hover {
+	border-top: 4px solid #09c;
+}
+
+.tile img {
+	margin: 0 auto 0 auto;
+}
+
+.description {
+	color: #666;
+	font-size: 0.75em;
+	font-family: sans-serif;
+}
+
+.tile>img, .tile>p, .tile>a>h5 {
+	display: block;
+}
+
+.ribbon {
+    position: absolute;
+    height: 40px;
+}
+
+.who-when {
+	margin-top: 20px;
+	padding-left: 30px; 
+	font-size: 0.5em;
+	text-transform: uppercase;
+	position: relative;
+}
+
+.who-when:before {
+	content: url("../assets/icons/user-data.png");
+	position:absolute;
+	left: 0;
+	top: 0;
+}
+
+.stats {
+	position: relative;
+	margin-top: 40px;
+}
+
+.stats li {
+	display: inline-block;
+	margin: 0 15px 0 25px;
+	z-index: 1000;
+	font-family: 'Montserrat', sans-serif;
+	cursor: pointer;
+	vertical-align: baseline;
+}
+
+.likes:before {
+	content: url("../assets/icons/like.png");
+	position:absolute;
+	left: 0;
+	top: 3px;	
+}
+
+.isliked:before {
+	content: url("../assets/icons/like-filled.png");
+	position:absolute;
+	left: 0;
+	top: 3px;	
+}
+
+.downloads:before {
+	content: url("../assets/icons/download.png");
+	position:relative;
+	left: -8px;
+	top: 7px;
+}
+
+.shares:before {
+	content: url("../assets/icons/share.png");
+	position: relative;
+	left: -8px;
+	top: 3px;
+}
+
