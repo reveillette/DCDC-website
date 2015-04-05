@@ -838,8 +838,8 @@ td p {
 
 #register-window input[type=submit], #register-window .social-button {
 	width: 15%; /* was 110px */
-	position: absolute;
-	bottom: 50px;
+	/* position: absolute;
+	bottom: 50px; */
 }
 
 #register-window #google {
