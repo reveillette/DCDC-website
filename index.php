@@ -1,8 +1,5 @@
-<?php require_once("../resources/db_connection.php"); ?>
-<?php require_once("../resources/functions.php"); ?>
-
 <!--Header-->
-<?php include("../resources/layouts/header.php"); ?>
+<?php include("resources/layouts/header.php"); ?>
 
 <!-- Fullpage landing -->
 <div class="container-fluid">
@@ -24,7 +21,7 @@
 			<div class="row centered">
 			    <div class="col-sm-4" id="share">
 			        <a href="howto.php">
-						<img class="icon" src="img/icons/wrench.svg">
+						<img class="icon" src="public/img/icons/wrench.svg">
 						<br/>
 						<h6>What is How To City?</h6>
 					</a>
@@ -32,15 +29,15 @@
 				</div> 
 				<div class="col-sm-4" id="library">
 			        <a href="library.php">
-						<img class="icon" src="img/icons/lightbulb.svg">
+						<img class="icon" src="public/img/icons/lightbulb.svg">
 						<br/>
 						<h6>Get ideas in the Library</h6>
 			        </a>
-					<p>The Library is a repository of guides for community enagement and action that is available to anybody for free download.</p>
+					<p>The Library is a repository of guides for community engagement and action that is available to anybody for free download.</p>
 				</div>     			   
 				<div class="col-sm-4" id="create">
 			        <a href="create.php">
-						<img class="icon" src="img/icons/notepad.svg">
+						<img class="icon" src="public/img/icons/notepad.svg">
 						<br/>
 						<h6>Create your own guide</h6>
 			        </a>
@@ -67,4 +64,4 @@
 
 
 <!--Footer-->
-<?php include("../resources/layouts/footer.php"); ?>
+<?php include("resources/layouts/footer.php"); ?>

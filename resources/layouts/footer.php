@@ -12,7 +12,7 @@
 		</nav>
 		<div class="mid-gray" id="credits">
 			<div class="container">
-				<a href="http://www.enterprisecommunity.com/"><img height="30px" src="img/enterprise-logo.png"></a>
+				<a href="http://www.enterprisecommunity.com/"><img height="30px" src="public/img/enterprise-logo.png"></a>
 				<p>&copy; <?php echo date("Y"); ?> Enterprise Community Partners.</p>
 				<br/>
 
@@ -29,16 +29,16 @@
 	<!-- Bootstrap js. Include all compiled plugins (below), or include individual files as needed -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <!-- Bootstrap select js -->
-    <script src="../resources/library/bootstrap-select.js"></script>
+    <script src="resources/library/bootstrap-select.js"></script>
     <!-- SVG pan/zoom by Ariutta https://github.com/ariutta/svg-pan-zoom -->
-    <script src="../resources/library/svg-pan-zoom.js"></script>
+    <script src="resources/library/svg-pan-zoom.js"></script>
     <!-- JQuery Hotkeys by John Resig, https://github.com/jeresig/jquery.hotkeys-->
-    <script src="../resources/library/jquery.hotkeys.js"></script>
+    <script src="resources/library/jquery.hotkeys.js"></script>
     <!-- Bootstrap WYSIWIG by Mindmup, http://mindmup.github.io/bootstrap-wysiwyg/-->
-    <script src="../resources/library/bootstrap-wysiwyg.js"></script>
+    <script src="resources/library/bootstrap-wysiwyg.js"></script>
 
     <!-- Site scripts -->
-    <script src="../resources/functions.js"></script>
+    <script src="resources/functions.js"></script>
 
 	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 	<script>

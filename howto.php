@@ -1,8 +1,5 @@
-<?php require_once("../resources/db_connection.php"); ?>
-<?php require_once("../resources/functions.php"); ?>
-
 <!--Header-->
-<?php include("../resources/layouts/header.php"); ?>
+<?php include("resources/layouts/header.php"); ?>
 
 <!-- Navigation buttons -->
 <div class="fixed-left-container">
@@ -38,28 +35,28 @@
 	</section>
 
 	<section id="page01" class="color-bar red">
-		<div class="image-bar" style="background: url('img/kids.jpg') no-repeat center; background-size: 100% auto"></div>
+		<div class="image-bar" style="background: url('public/img/kids.jpg') no-repeat center; background-size: 100% auto"></div>
 		<div class="half rounded white-bg">
 			<h3>How to use this site.<br/><small>This website has three parts.</small></h3>
 			<br/>
 			<div class="row centered">
 			    <div class="col-sm-4">
 			    	<a class="no-underline" href="library.php">
-						<img class="icon" src="img/icons/shrub.svg">
+						<img class="icon" src="public/img/icons/shrub.svg">
 						<h6>1. Learn</h6>
 					</a>
 					<p>Learn about how you can better engage with your community by browsing through our extensive library.</p>
 				</div> 
 				<div class="col-sm-4">
 			        <a class="no-underline" href="library.php">
-						<img class="icon" src="img/icons/lightbulb.svg">
+						<img class="icon" src="public/img/icons/lightbulb.svg">
 						<h6>2. Share</h6>
 			        </a>
 					<p>Anyone can download or share the guides in the library. All it takes is your name and email address. </p>
 				</div>     			   
 				<div class="col-sm-4">
 			        <a class="no-underline" href="create.php">
-						<img class="icon" src="img/icons/wand.svg">
+						<img class="icon" src="public/img/icons/wand.svg">
 						<h6>3. Create</h6>
 			        </a>
 					<p>Create your own how-to guide on the create page, then publish it to web or download it as a PDF to print.</p>
@@ -113,7 +110,7 @@
 			<div class="row">
 				<div class="row">
 					<div class="col-md-3">
-						<img class="icon" src="img/icons/chair.svg">
+						<img class="icon" src="public/img/icons/chair.svg">
 					</div>
 					<div class="col-md-9">
 						<p><strong>Think about your objectives. </strong>Having clear intentions about what you want the guide to accomplish will help you make decisions about content along the way. Think about whether you may actually need <em>more than one guide</em> to explain a complex issue. <a href="" onclick="return false;" class="reveal more"></a></p>
@@ -129,7 +126,7 @@
 				<br/>
 				<div class="row">
 					<div class="col-sm-3">
-						<img class="icon" src="img/icons/notepad.svg">
+						<img class="icon" src="public/img/icons/notepad.svg">
 					</div>
 					<div class="col-sm-9">
 						<p><strong>Prepare your content beforehand. </strong>You can always log back in later to access a guide in process, but it also helps to start with the right information. <a href="" onclick="return false;" class="reveal more"></a></p>
@@ -146,7 +143,7 @@
 				<br/>
 				<div class="row">
 					<div class="col-sm-3">
-						<img class="icon" src="img/icons/shirt.svg">
+						<img class="icon" src="public/img/icons/shirt.svg">
 					</div>
 					<div class="col-sm-9">
 						<p><strong>Get the right people involved. </strong>Your guide might need input from a variety of people ranging from community members to city officials. Make sure you reach out to people who can help make sure that information in the guide is accurate and easy to use. You should definitely have a test audience review the guide before it is finalized.</p>
@@ -170,7 +167,7 @@
 						<span id="tour4" class="simptip-position-top simptip-fade simptip-smooth simptip-multiline" data-tooltip="4. Steps. Take a moment to break down your overall goal into bite-sized steps. Rather than multi-step tasks, these steps should be simple to understand and easy to accomplish in a reasonable amount of time. If you find yourself with more steps than fit on the first page, you might reconsider your overall intention—-should this be split into multiple guides?"><span class="glyphicon glyphicon-star"></span></span>
 					</div>
 					<div class="guidebox">
-						<img class="img-responsive" src="img/howtofull1.png">
+						<img class="img-responsive" src="public/img/howtofull1.png">
 					</div>
 				</div>
 				<div class="col-md-6">
@@ -180,7 +177,7 @@
 						<span id="tour7" class="simptip-position-top simptip-fade simptip-smooth simptip-multiline" data-tooltip="7. Credits. Who contributed to this guide? Try to provide as much contact information as possible in the credit line, so that community members know who to get in touch with for more information."><span class="glyphicon glyphicon-star"></span></span>
 					</div>
 					<div class="guidebox">
-						<img class="img-responsive" src="img/howtofull2.png">
+						<img class="img-responsive" src="public/img/howtofull2.png">
 					</div>
 				</div>
 			</div>
@@ -194,19 +191,19 @@
 			<br/>
 			<div class="row centered">
 				<div class="col-md-4">
-					<img class="icon" src="img/icons/shrub.svg">
+					<img class="icon" src="public/img/icons/shrub.svg">
 					<br/>
 					<h6>Build capacity</h6>
 					<p>As the saying goes, "Give a man a fish and you feed him for a day; teach a man to fish and you feed him for a lifetime. Likewise, good how-to guides are all about building capacity: teach people how to take on challenges and pursue opportunities for themselves.</p>
 				</div>
 				<div class="col-md-4">
-					<img class="icon" src="img/icons/headphones.svg">
+					<img class="icon" src="public/img/icons/headphones.svg">
 					<br/>
 					<h6>Do what you know</h6>
 					<p>Do one thing, not a million things. How-to guides together form a library, so focus on what you know really well in order to contribute a unique piece.</p>
 				</div>
 				<div class="col-md-4">
-					<img class="icon" src="img/icons/handbag.svg">
+					<img class="icon" src="public/img/icons/handbag.svg">
 					<br/>
 					<h6>Make it accessible.</h6>
 					<p>Always consider your audience. You're speaking to a community, and they're probably not policy wonks and activists, but rather residents and visitors, parents and kids, professionals and community leaders.</p>
@@ -216,7 +213,7 @@
 	</section>
 
 	<section id="page06" class="color-bar">
-		<div class="image-bar" style="background: url('img/detroit.jpg') no-repeat center; background-size: 100% auto"></div>		
+		<div class="image-bar" style="background: url('public/img/detroit.jpg') no-repeat center; background-size: 100% auto"></div>		
 		<div id="06" class="half rounded white-bg centered">
 			<h3>That's it! Now get started.</h3>
 			<p class="lead">Ready to make your own guides and share them with your community? It just takes a minute to get registered, and then you'll be on your way to helping shape your community, step by step.</p>
@@ -230,5 +227,5 @@
 </div>
 
 <!--Footer-->
-<?php include("../resources/layouts/footer.php"); ?>
+<?php include("resources/layouts/footer.php"); ?>
 

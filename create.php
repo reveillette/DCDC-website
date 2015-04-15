@@ -1,17 +1,5 @@
-<?php require_once("../resources/db_connection.php"); ?>
-<?php require_once("../resources/functions.php"); ?>
-
-<?php
-	// 2. Perform database query
-	$query  = "SELECT * ";
-	$query .= "FROM pages ";
-	$query .= "WHERE id < 10 ";
-	$query .= "ORDER BY id ASC";
-	$result = mysqli_query($connection, $query);
-	confirm_query($result);
-?>
 <!--Header-->
-<?php include("../resources/layouts/header.php"); ?>
+<?php include("resources/layouts/header.php"); ?>
 
 <!-- Open, save and publish buttons -->
 <div class="fixed-left-container">
@@ -42,7 +30,7 @@
 
 <p>As you fill in the information below, the preview panel on the right will update to show you your how-to guide. Once you're finished you can save the guide to PDF or use this website to share a digital version with your community.</p>
 </p>
-				<?php include("../resources/layouts/createform1.php"); ?>
+				<?php include("resources/layouts/createform1.php"); ?>
 			</div>
 		</div>
 
@@ -51,7 +39,7 @@
 				<h4 class="panel-title">Preview</h4>
 			</div>
 			<div class="panel-body">
-				<?php include("../resources/layouts/page1.php"); ?>
+				<?php include("resources/layouts/page1.php"); ?>
 			</div>
 		</div>
 	</div>
@@ -87,14 +75,8 @@
 </div>
 
 
-
-<?php
-  // 4. Release returned data
-  mysqli_free_result($result);
-?>
-
 <!--Footer-->
-<?php include("../resources/layouts/footer.php"); ?>
+<?php include("resources/layouts/footer.php"); ?>
 
 
 
@@ -224,9 +206,9 @@ $(document).on('click', '.pagination>li', function(event) {
 
 	// Assign load paths based on page number
 	if ($(this).hasClass('section')) {
-		var path = "../resources/layouts/createform" + newNumber + ".php";
+		var path = "resources/layouts/createform" + newNumber + ".php";
 	} else if ($(this).hasClass('page')) {
-		var path = "../resources/layouts/page" + newNumber + ".php";
+		var path = "resources/layouts/page" + newNumber + ".php";
 	}
 
 	// Load new page into div

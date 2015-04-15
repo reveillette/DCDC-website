@@ -1,18 +1,5 @@
-<?php require_once("../resources/db_connection.php"); ?>
-<?php require_once("../resources/functions.php"); ?>
-
-<?php
-	// 2. Perform database query
-	$query  = "SELECT * ";
-	$query .= "FROM pages ";
-	$query .= "WHERE id < 10 ";
-	$query .= "ORDER BY id ASC";
-	$result = mysqli_query($connection, $query);
-	confirm_query($result);
-?>
-
 <!--Header-->
-<?php include("../resources/layouts/header.php"); ?>
+<?php include("resources/layouts/header.php"); ?>
 
 <!-- Upload button -->
 <div class="fixed-left-container">
@@ -66,7 +53,7 @@
 		<div class="row">
 	        <div class="col-md-4">
 	        	<div class="tile">
-		            <img class="icon" src="img/icons/lightbulb.svg">
+		            <img class="icon" src="public/img/icons/lightbulb.svg">
 		            <a href="#!"><h5>Create an urban bird habitat</h5></a>
 		            <p class="description">Backyard bird habitats, even in cities, are critical to building biodiversity and healthy green spaces in built-up areas.</p>
 		            <div class="who-when">
@@ -83,7 +70,7 @@
 
 	        <div class="col-md-4">
 	        	<div class="tile">
-		            <img class="icon" src="img/icons/lightbulb.svg">
+		            <img class="icon" src="public/img/icons/lightbulb.svg">
 		            <a href="#!"><h5>Create an urban bird habitat</h5></a>
 		            <p class="description">Backyard bird habitats, even in cities, are critical to building biodiversity and healthy green spaces in built-up areas.</p>
 		            <div class="who-when">
@@ -100,60 +87,7 @@
 
 	        <div class="col-md-4">
 	        	<div class="tile">
-		            <img class="icon" src="img/icons/lightbulb.svg">
-		            <a href="#!"><h5>Create an urban bird habitat</h5></a>
-		            <p class="description">Backyard bird habitats, even in cities, are critical to building biodiversity and healthy green spaces in built-up areas.</p>
-		            <div class="who-when">
-		                <h6 class="creator">Detroit Greenways Alliance</h6>
-		                <p class="date">December 21, 2014</p>
-		            </div>    
-		            <div class="stats">
-		                <li class="likes">147</li>
-		                <li class="downloads">56</li>
-		                <li class="shares">231</li>
-		            </div>
-		        </div>
-	        </div>
-	    </div>
-
-	    <div class="row">
-	        <div class="col-md-4">
-	        	<div class="tile">
-		            <img class="icon" src="img/icons/lightbulb.svg">
-		            <a href="#!"><h5>Create an urban bird habitat</h5></a>
-		            <p class="description">Backyard bird habitats, even in cities, are critical to building biodiversity and healthy green spaces in built-up areas.</p>
-		            <div class="who-when">
-		                <h6 class="creator">Detroit Greenways Alliance</h6>
-		                <p class="date">December 21, 2014</p>
-		            </div>    
-		            <div class="stats">
-		                <li class="likes">147</li>
-		                <li class="downloads">56</li>
-		                <li class="shares">231</li>
-		            </div>
-		        </div>
-	        </div>
-
-	        <div class="col-md-4">
-	        	<div class="tile">
-		            <img class="icon" src="img/icons/lightbulb.svg">
-		            <a href="#!"><h5>Create an urban bird habitat</h5></a>
-		            <p class="description">Backyard bird habitats, even in cities, are critical to building biodiversity and healthy green spaces in built-up areas.</p>
-		            <div class="who-when">
-		                <h6 class="creator">Detroit Greenways Alliance</h6>
-		                <p class="date">December 21, 2014</p>
-		            </div>    
-		            <div class="stats">
-		                <li class="likes">147</li>
-		                <li class="downloads">56</li>
-		                <li class="shares">231</li>
-		            </div>
-		        </div>
-	        </div>
-
-	        <div class="col-md-4">
-	        	<div class="tile">
-		            <img class="icon" src="img/icons/lightbulb.svg">
+		            <img class="icon" src="public/img/icons/lightbulb.svg">
 		            <a href="#!"><h5>Create an urban bird habitat</h5></a>
 		            <p class="description">Backyard bird habitats, even in cities, are critical to building biodiversity and healthy green spaces in built-up areas.</p>
 		            <div class="who-when">
@@ -172,7 +106,7 @@
 	    <div class="row">
 	        <div class="col-md-4">
 	        	<div class="tile">
-		            <img class="icon" src="img/icons/lightbulb.svg">
+		            <img class="icon" src="public/img/icons/lightbulb.svg">
 		            <a href="#!"><h5>Create an urban bird habitat</h5></a>
 		            <p class="description">Backyard bird habitats, even in cities, are critical to building biodiversity and healthy green spaces in built-up areas.</p>
 		            <div class="who-when">
@@ -189,7 +123,7 @@
 
 	        <div class="col-md-4">
 	        	<div class="tile">
-		            <img class="icon" src="img/icons/lightbulb.svg">
+		            <img class="icon" src="public/img/icons/lightbulb.svg">
 		            <a href="#!"><h5>Create an urban bird habitat</h5></a>
 		            <p class="description">Backyard bird habitats, even in cities, are critical to building biodiversity and healthy green spaces in built-up areas.</p>
 		            <div class="who-when">
@@ -206,7 +140,60 @@
 
 	        <div class="col-md-4">
 	        	<div class="tile">
-		            <img class="icon" src="img/icons/lightbulb.svg">
+		            <img class="icon" src="public/img/icons/lightbulb.svg">
+		            <a href="#!"><h5>Create an urban bird habitat</h5></a>
+		            <p class="description">Backyard bird habitats, even in cities, are critical to building biodiversity and healthy green spaces in built-up areas.</p>
+		            <div class="who-when">
+		                <h6 class="creator">Detroit Greenways Alliance</h6>
+		                <p class="date">December 21, 2014</p>
+		            </div>    
+		            <div class="stats">
+		                <li class="likes">147</li>
+		                <li class="downloads">56</li>
+		                <li class="shares">231</li>
+		            </div>
+		        </div>
+	        </div>
+	    </div>
+
+	    <div class="row">
+	        <div class="col-md-4">
+	        	<div class="tile">
+		            <img class="icon" src="public/img/icons/lightbulb.svg">
+		            <a href="#!"><h5>Create an urban bird habitat</h5></a>
+		            <p class="description">Backyard bird habitats, even in cities, are critical to building biodiversity and healthy green spaces in built-up areas.</p>
+		            <div class="who-when">
+		                <h6 class="creator">Detroit Greenways Alliance</h6>
+		                <p class="date">December 21, 2014</p>
+		            </div>    
+		            <div class="stats">
+		                <li class="likes">147</li>
+		                <li class="downloads">56</li>
+		                <li class="shares">231</li>
+		            </div>
+		        </div>
+	        </div>
+
+	        <div class="col-md-4">
+	        	<div class="tile">
+		            <img class="icon" src="public/img/icons/lightbulb.svg">
+		            <a href="#!"><h5>Create an urban bird habitat</h5></a>
+		            <p class="description">Backyard bird habitats, even in cities, are critical to building biodiversity and healthy green spaces in built-up areas.</p>
+		            <div class="who-when">
+		                <h6 class="creator">Detroit Greenways Alliance</h6>
+		                <p class="date">December 21, 2014</p>
+		            </div>    
+		            <div class="stats">
+		                <li class="likes">147</li>
+		                <li class="downloads">56</li>
+		                <li class="shares">231</li>
+		            </div>
+		        </div>
+	        </div>
+
+	        <div class="col-md-4">
+	        	<div class="tile">
+		            <img class="icon" src="public/img/icons/lightbulb.svg">
 		            <a href="#!"><h5>Create an urban bird habitat</h5></a>
 		            <p class="description">Backyard bird habitats, even in cities, are critical to building biodiversity and healthy green spaces in built-up areas.</p>
 		            <div class="who-when">
@@ -223,12 +210,7 @@
 	    </div>
 	</div>
 </div>
-<?php
-  // 4. Release returned data
-  mysqli_free_result($result);
-?>
-
 <!--Footer-->
-<?php include("../resources/layouts/footer.php"); ?>
+<?php include("resources/layouts/footer.php"); ?>
 
 

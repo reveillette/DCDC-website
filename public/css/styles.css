@@ -439,7 +439,7 @@ textarea {
 
 @media (max-width: 992px) and (orientation:portrait) {
     #landing {
-        height: 100vh;
+        height: 100%;
         background-size: 150vh;  
     }
 }
@@ -449,6 +449,8 @@ textarea {
         width: 100vw;
         background-size: 100vw;          
     }
+
+    .title { top: 20%; }
 
 }
 
@@ -461,7 +463,7 @@ textarea {
 
 
 @media (max-width: 768px) {
-    .title {padding-left: 30%; padding-right: 10px;}
+    .title {padding-left: 30%; padding-right: 10px; }
     .title h1 { font-size: 400%; }
     .title h2 { font-size: 200%; }
 }

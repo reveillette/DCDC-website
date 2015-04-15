@@ -13,7 +13,7 @@
 
 
 		<!--Add PHP function for title here-->     
-		<title>Community How-to Guides</title>
+		<title>Community How-to Guides: howtocommunity.org</title>
 		<!--Add PHP function for description here-->
 		<meta name="description" content="">
 		<!--Google translate header-->
@@ -24,13 +24,13 @@
         <!-- Bootstrap -->
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
         <!-- Bootstrap select by Silvio Moreto, http://silviomoreto.github.io/bootstrap-select/-->
-        <link rel="stylesheet" type="text/css" href="css/bootstrap-select.css">
+        <link rel="stylesheet" type="text/css" href="public/css/bootstrap-select.css">
         <!-- JQuery UI -->
 		<link rel="stylesheet" type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css">
 		<!--Simptip simple tooltips by Arash Manteghi, http://arashm.net/lab/simptip/-->
-        <link rel="stylesheet" type="text/css" href="css/simptip.css">
+        <link rel="stylesheet" type="text/css" href="public/css/simptip.css">
 		<!--Custom styles-->
-		<link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
+		<link rel="stylesheet" type="text/css" href="public/css/styles.css" media="all">
 
 	    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -58,7 +58,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-    			<a class="navbar-brand" href="index.php"><img id="logo" src="img/logo.png"></a>
+    			<a class="navbar-brand" href="index.php"><img id="logo" src="public/img/logo.svg"></a>
     		</div>
 
 		  	<div id="navbar" class="navbar-collapse collapse">
